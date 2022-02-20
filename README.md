@@ -1,5 +1,7 @@
 # Operation: RECON trailer
 
+![Screen Shot 2022-02-20 at 11 54 51 AM](https://user-images.githubusercontent.com/7477/154861676-b16c3d62-e438-403b-a2a3-817eaf6fa862.png)
+
 This is the trailer for _Operation: RECON_, an unfinished game that I worked on along with Randy Dykstra in the mid-90s.
 Unfortunately I've lost the original source code, but I've reconstructed it from the public release of the trailer.
 
