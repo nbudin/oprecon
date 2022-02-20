@@ -1,0 +1,31 @@
+#include "defines.agilogic"
+#include "cutscene.agilogic"
+
+#define dykstra_budin_logo o1
+
+if (new_room) {
+  load.pic(room_no);
+  draw.pic(room_no);
+  discard.pic(room_no);
+  set.horizon(50);
+  status.line.off();
+  prevent.input();
+  program.control();
+  show.pic();
+
+  animate.obj(dykstra_budin_logo);
+  load.view(188);
+  set.view(dykstra_budin_logo, 188);
+  position(dykstra_budin_logo, 18, 166);
+  draw(dykstra_budin_logo);
+
+  display(3, 1, "           Operation: RECON            ");
+  display(10, 1, "      A Dykstra/Budin Production       ");
+  display(15, 1, "             Coming soon!              ");
+}
+
+if (have.key()) {
+  quit(1);
+}
+
+return();

@@ -1,0 +1,40 @@
+#include "defines.agilogic"
+
+if (input_recieved && (free_memory == 0) && !input_parsed) {
+  if (said("die")) {
+    load.view(1);
+    set.view(ego, 1);
+    program.control();
+    stop.motion(ego);
+    death_type = 1;
+  }
+
+  if (said("examine", "test object")) {
+    if (has("test object")) {
+      show.obj(220);
+    } else {
+      print("You don't have it.");
+    }
+  }
+
+  if (said("examine", "anyword") || said("examine", "anyword", "anyword")) {
+    print("What? Where?");
+  }
+
+  if (said("get", "anyword") || said("get", "anyword", "anyword")) {
+    print("You can't get that here!");
+  }
+
+  if (said("use", "anyword") || said("use", "anyword", "anyword")) {
+    print("What do you want me to do with it?");
+  }
+}
+
+return();
+
+
+// messages
+#message 1 "You don't have it."
+#message 2 "What? Where?"
+#message 3 "You can't get that here!"
+#message 4 "What do you want me to do with it?"

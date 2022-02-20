@@ -1,0 +1,155 @@
+#include "defines.agilogic"
+#include "cutscene.agilogic"
+
+#define speech_bubble_object o6
+#define nasa_spokesman_object o4
+#define nasa_logo_object o5
+#define camera_screen_object o3
+
+if (new_room) {
+  script.size(255);
+  load.pic(room_no);
+  draw.pic(room_no);
+  set.horizon(50);
+  status.line.off();
+  prevent.input();
+  program.control();
+  show.pic();
+
+  cutscene_action_counter = 0;
+  cutscene_subaction_counter = 0;
+
+  animate.obj(speech_bubble_object);
+  load.view(176);
+  set.view(speech_bubble_object, 176);
+  position(speech_bubble_object, 80, 80);
+  // "Approximately 12 hours ago, all contact with Lunar Techlab was lost."
+  set.loop(speech_bubble_object, 0);
+  draw(speech_bubble_object);
+
+  animate.obj(nasa_spokesman_object);
+  load.view(177);
+  set.view(nasa_spokesman_object, 177);
+  position(nasa_spokesman_object, 66, 106);
+  draw(nasa_spokesman_object);
+
+  animate.obj(nasa_logo_object);
+  load.view(178);
+  set.view(nasa_logo_object, 178);
+  position(nasa_logo_object, 70, 25);
+  draw(nasa_logo_object);
+
+  animate.obj(camera_screen_object);
+  load.view(179);
+  set.view(camera_screen_object, 179);
+  position(camera_screen_object, 0, 97);
+  set.priority(camera_screen_object, 14);
+  draw(camera_screen_object);
+  load.sound(208);
+  sound(208, sound_done);
+}
+
+if ((cutscene_action_counter == 0) && (cutscene_subaction_counter < 75)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 0) && (cutscene_subaction_counter == 75)) {
+  cutscene_action_counter++;
+  cutscene_subaction_counter = 0;
+
+  // "Our attempts to regain communication have not been successful."
+  set.loop(speech_bubble_object, 1);
+}
+
+if ((cutscene_action_counter == 1) && (cutscene_subaction_counter < 70)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 1) && (cutscene_subaction_counter == 70)) {
+  cutscene_action_counter++;
+  cutscene_subaction_counter = 0;
+
+  // "At 4:00 this morning, a small recon team launched for Techlab."
+  set.loop(speech_bubble_object, 2);
+}
+
+if ((cutscene_action_counter == 2) && (cutscene_subaction_counter < 80)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 2) && (cutscene_subaction_counter == 80)) {
+  cutscene_action_counter++;
+  cutscene_subaction_counter = 0;
+
+  // "The crew consists of a commander, Bruce Paris..."
+  set.loop(speech_bubble_object, 3);
+}
+
+if ((cutscene_action_counter == 3) && (cutscene_subaction_counter < 75)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 3) && (cutscene_subaction_counter == 75)) {
+  cutscene_action_counter++;
+  cutscene_subaction_counter = 0;
+
+  // "...a doctor, Jim Powell..."
+  set.loop(speech_bubble_object, 4);
+}
+
+if ((cutscene_action_counter == 4) && (cutscene_subaction_counter < 60)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 4) && (cutscene_subaction_counter == 60)) {
+  cutscene_action_counter++;
+  cutscene_subaction_counter = 0;
+
+  // "...and a technician, Roger Bryce."
+  set.loop(speech_bubble_object, 5);
+}
+
+if ((cutscene_action_counter == 5) && (cutscene_subaction_counter < 75)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 5) && (cutscene_subaction_counter == 75)) {
+  cutscene_action_counter++;
+  cutscene_subaction_counter = 0;
+  erase(speech_bubble_object);
+  erase(nasa_spokesman_object);
+  erase(o5);
+  erase(camera_screen_object);
+
+  // Black out screen briefly for transition
+  tmp_pic_number = 206;
+  load.pic(tmp_pic_number);
+  draw.pic(tmp_pic_number);
+  show.pic();
+}
+
+if ((cutscene_action_counter == 6) && (cutscene_subaction_counter < 5)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 6) && (cutscene_subaction_counter == 5)) {
+  // "We have full confidence in our crew that this minor setback will be just that - a minor setback."
+  tmp_pic_number = 209;
+  load.pic(tmp_pic_number);
+  draw.pic(tmp_pic_number);
+  show.pic();
+  cutscene_action_counter++;
+}
+
+if (sound_done && (cutscene_action_counter == 7)) {
+  new.room(210);
+}
+
+if (sound_done && (cutscene_action_counter < 7)) {
+  sound(208, sound_done);
+}
+
+if (have.key()) {
+  quit(1);
+}
+return();

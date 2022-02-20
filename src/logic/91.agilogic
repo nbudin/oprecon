@@ -1,0 +1,37 @@
+#include "defines.agilogic"
+
+if (new_room) {
+  trace.info(95, 3, 10);
+  set.key(0, 59, menu_help);
+  set.key(0, 60, menu_soundonoff);
+  set.key(19, 0, menu_soundonoff);
+  set.key(0, 61, key_echoline);
+  set.key(5, 0, key_echoline);
+  set.key(0, 62, key_seeobject);
+  set.key(0, 63, menu_save);
+  set.key(0, 64, menu_clock);
+  set.key(0, 65, menu_restore);
+  set.key(0, 67, menu_restart);
+  set.key(9, 0, menu_inventory);
+  set.key(0, 32, key_debug);
+  set.key(10, 0, menu_joystick);
+  set.key(3, 0, key_clearinputline);
+  set.key(0, 44, menu_quit);
+  set.key(45, 0, key_decreasevolume);
+  set.key(43, 0, key_increasevolume);
+  set.key(27, 0, key_activiate_menu);
+  set(joystick_sensitivity_set);
+  joystick_sensitivity = 3;
+  sound_volume = 15;
+  configure.screen(1, 22, 0);
+  set.string(prompt_char, ">");
+  set.cursor.char("_");
+  max_score = 0;
+  cycle_delay = 2;
+}
+return();
+
+
+// messages
+#message 1 ">"
+#message 2 "_"

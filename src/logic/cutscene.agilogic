@@ -1,0 +1,11 @@
+#define sound_done f36
+#define movement_done f37
+
+#define cutscene_action_counter v41
+#define cutscene_subaction_counter v42
+#define cutscene_cycles v40
+
+#define tmp_cel_number v200
+#define tmp_cycle_time v201
+#define tmp_pic_number v202
+#define tmp_step_size v203

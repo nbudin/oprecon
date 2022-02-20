@@ -1,0 +1,170 @@
+#include "defines.agilogic"
+
+if (said("debug", "help")) {
+  call(93);
+}
+
+if (said("trace", "on")) {
+  set(trace_enabled);
+}
+
+if (said("show", "mem")) {
+  show.mem();
+}
+
+#define tmp_new_room v255
+
+if (said("tp")) {
+  get.num("new room: ", tmp_new_room);
+  new.room.v(tmp_new_room);
+}
+
+#define tmp_new_x v254
+#define tmp_new_y v255
+
+if (said("pos")) {
+  get.num("x: ", tmp_new_x);
+  get.num("y: ", tmp_new_y);
+  erase(ego);
+  reposition.to.v(ego, tmp_new_x, tmp_new_y);
+  draw(ego);
+}
+
+#define tmp_showvar_number v255
+#define tmp_showvar_value v254
+
+if (said("show", "var")) {
+  get.num("var number: ", tmp_showvar_number);
+  tmp_showvar_value = *tmp_showvar_number;
+  print("var %v255: %v254");
+}
+
+#define tmp_setvar_number v254
+#define tmp_setvar_value v255
+
+if (said("set", "var")) {
+  get.num("var number: ", tmp_setvar_number);
+  get.num("var value: ", tmp_setvar_value);
+  *tmp_setvar_number = tmp_setvar_value;
+}
+
+#define tmp_flag_number v255
+
+if (said("show", "flag")) {
+  get.num("flag number: ", tmp_flag_number);
+
+  if (issetv(tmp_flag_number)) {
+    print("flag %v255 is set");
+  } else {
+    print("flag %v255 is not set");
+  }
+}
+
+if (said("set", "flag")) {
+  get.num("flag number: ", tmp_flag_number);
+  set.v(tmp_flag_number);
+}
+
+if (said("reset", "flag")) {
+  get.num("flag number: ", tmp_flag_number);
+  reset.v(tmp_flag_number);
+}
+
+#define tmp_object_number v255
+
+if (said("object")) {
+  get.num("object #: ", tmp_object_number);
+  obj.status.v(tmp_object_number);
+}
+
+if (said("show", "pri")) {
+  show.pri.screen();
+}
+
+if (said("get", "object")) {
+  get.num("object number: ", tmp_object_number);
+
+  if (tmp_object_number > 1) {
+    print("Invalid object number!");
+  } else {
+    get.v(tmp_object_number);
+  }
+}
+
+if (said("gimme", "gimme")) {
+  print("You gottum!");
+  tmp_object_number = 0;
+
+GetNextObject:
+  get.v(tmp_object_number);
+
+  if (tmp_object_number < 1) {
+    tmp_object_number++;
+    goto(GetNextObject);
+  }
+}
+
+#define tmp_room_number v254
+
+if (said("object", "room")) {
+  get.num("Object number: ", tmp_object_number);
+
+  if (tmp_object_number > 1) {
+    print("Invalid object number!");
+  } else {
+    get.room.v(tmp_object_number, tmp_room_number);
+
+    if (tmp_room_number == 255) {
+      print("Object %v255 is in your inventory.");
+    } else {
+      print("Object %v255 is in room %v254.");
+    }
+  }
+}
+
+#define tmp_priority v255
+
+if (said("set", "pri")) {
+  get.num("New priority: ", tmp_priority);
+  set.priority.v(ego, tmp_priority);
+}
+
+if (said("release", "pri")) {
+  release.priority(ego);
+}
+
+if (said("coords")) {
+  toggle(coords_shown);
+
+  if (!coords_shown) {
+    clear.lines(24, 24, 0);
+  }
+}
+
+if (coords_shown) {
+  get.posn(ego, v253, v254);
+  get.priority(ego, v255);
+  display(24, 15, "Rm %v0|3 Pri %v255|2 x:%v253|3 y:%v254|3");
+}
+return();
+
+
+// messages
+#message 1 "new room: "
+#message 2 "x: "
+#message 3 "y: "
+#message 4 "var number: "
+#message 5 "var %v255: %v254"
+#message 6 "var value: "
+#message 7 "flag number: "
+#message 8 "flag %v255 is set"
+#message 9 "flag %v255 is not set"
+#message 10 "object #: "
+#message 11 "object number: "
+#message 12 "Invalid object number!"
+#message 13 "You gottum!"
+#message 14 "Object number: "
+#message 15 "Object %v255 is in your inventory."
+#message 16 "Object %v255 is in room %v254."
+#message 17 "New priority: "
+#message 18 "Rm %v0|3 Pri %v255|2 x:%v253|3 y:%v254|3"

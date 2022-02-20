@@ -1,0 +1,358 @@
+#include "defines.agilogic"
+#include "cutscene.agilogic"
+#include "cutscene-lab.agilogic"
+
+if (new_room) {
+  tmp_pic_number = 202;
+  load.view(161);
+  load.pic(tmp_pic_number);
+  draw.pic(tmp_pic_number);
+
+  tmp_pic_number = 206;
+  load.pic(tmp_pic_number);
+
+  set.horizon(50);
+  status.line.off();
+  prevent.input();
+  program.control();
+
+  animate.obj(labcoat_person_object);
+  release.loop(labcoat_person_object);
+  stop.motion(labcoat_person_object);
+  load.view(153);
+  set.view(labcoat_person_object, 153);
+  position(labcoat_person_object, 102, 119);
+  set.loop(labcoat_person_object, 1);
+  stop.cycling(labcoat_person_object);
+  draw(labcoat_person_object);
+
+  animate.obj(labcoat_speech_bubble_object);
+  load.view(169);
+  set.view(labcoat_speech_bubble_object, 169);
+  set.priority(labcoat_speech_bubble_object, 15);
+  ignore.blocks(labcoat_speech_bubble_object);
+  position(labcoat_speech_bubble_object, 85, 82);
+  set.loop(labcoat_speech_bubble_object, 4);
+
+  animate.obj(hazmat_speech_bubble_object);
+  set.view(hazmat_speech_bubble_object, 169);
+  set.priority(hazmat_speech_bubble_object, 15);
+  ignore.blocks(hazmat_speech_bubble_object);
+  position(hazmat_speech_bubble_object, 10, 60);
+  set.loop(hazmat_speech_bubble_object, 3);
+  // "Waste product completely gone.  Test Delta-1 successful!"
+  draw(hazmat_speech_bubble_object);
+
+  animate.obj(right_blue_door_object);
+  load.view(167);
+  set.view(right_blue_door_object, 167);
+  ignore.blocks(right_blue_door_object);
+  position(right_blue_door_object, 141, 93);
+  set.priority(right_blue_door_object, 10);
+  stop.cycling(right_blue_door_object);
+  draw(right_blue_door_object);
+
+  animate.obj(left_blue_door_object);
+  load.view(168);
+  set.view(left_blue_door_object, 168);
+  ignore.blocks(left_blue_door_object);
+  position(left_blue_door_object, 4, 94);
+  stop.cycling(left_blue_door_object);
+  draw(left_blue_door_object);
+
+  animate.obj(red_door_object);
+  load.view(166);
+  set.view(red_door_object, 166);
+  ignore.blocks(red_door_object);
+  set.priority(red_door_object, 8);
+  position(red_door_object, 32, 73);
+  stop.cycling(red_door_object);
+  draw(red_door_object);
+
+  show.pic();
+  cutscene_action_counter = 0;
+  cutscene_subaction_counter = 0;
+  reset(movement_done);
+  tmp_cel_number = 0;
+
+  animate.obj(hazmat_person_object);
+  load.view(156);
+  ignore.blocks(hazmat_person_object);
+  set.view(hazmat_person_object, 156);
+  release.loop(hazmat_person_object);
+  position(hazmat_person_object, 58, 83);
+  stop.cycling(hazmat_person_object);
+  draw(hazmat_person_object);
+
+  animate.obj(table_object);
+  load.view(160);
+  ignore.blocks(table_object);
+  set.view(table_object, 160);
+  position(table_object, 59, 88);
+  draw(table_object);
+}
+
+if ((cutscene_action_counter == 0) && (cutscene_subaction_counter < 30)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 0) && (cutscene_subaction_counter == 30)) {
+  cutscene_action_counter++;
+  cutscene_subaction_counter = 0;
+  erase(hazmat_speech_bubble_object);
+  // "Well, we did it.  When we're finished, this advance will solve one of Earth's most threatening problems."
+  draw(labcoat_speech_bubble_object);
+}
+
+if ((cutscene_action_counter == 1) && (cutscene_subaction_counter < 75)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 1) && (cutscene_subaction_counter == 75)) {
+  cutscene_action_counter++;
+  cutscene_subaction_counter = 0;
+  // "We better analyze these data and..."
+  set.loop(labcoat_speech_bubble_object, 5);
+}
+
+if ((cutscene_action_counter == 2) && (cutscene_subaction_counter < 30)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 2) && (cutscene_subaction_counter == 30)) {
+  cutscene_subaction_counter = 0;
+  cutscene_action_counter++;
+  erase(labcoat_speech_bubble_object);
+
+  // Test chamber explodes
+  set.loop(table_object, 1);
+  set.cel(table_object, 0);
+}
+
+if (cutscene_action_counter == 3) {
+  current.cel(table_object, tmp_cel_number);
+
+  if (tmp_cel_number == 2) {
+    set.view(hazmat_person_object, 161);
+    set.cel(hazmat_person_object, 0);
+    reposition.to(hazmat_person_object, 44, 83);
+    start.cycling(hazmat_person_object);
+
+    // Explosion sound effect
+    load.sound(210);
+    sound(210, sound_done);
+
+    shake.screen(1);
+
+    move.obj(labcoat_person_object, 72, 138, 2, movement_done);
+    start.cycling(labcoat_person_object);
+  }
+
+  if (tmp_cel_number == 7) {
+    stop.cycling(table_object);
+    stop.cycling(hazmat_person_object);
+  }
+
+  if (movement_done) {
+    tmp_step_size = 2;
+    step.size(labcoat_person_object, tmp_step_size);
+    start.cycling(labcoat_person_object);
+    move.obj(labcoat_person_object, 72, 120, 0, movement_done);
+
+    cutscene_action_counter++;
+
+    // Hazmat scientist tries to get up
+    load.view(164);
+    set.view(hazmat_person_object, 164);
+    reposition.to(hazmat_person_object, 39, 83);
+    start.cycling(hazmat_person_object);
+    tmp_cycle_time = 2;
+    cycle.time(hazmat_person_object, tmp_cycle_time);
+  }
+}
+
+if (cutscene_action_counter == 4) {
+  current.cel(hazmat_person_object, tmp_cel_number);
+
+  if (tmp_cel_number == 4) {
+    stop.cycling(hazmat_person_object);
+
+    // Lights out
+    tmp_pic_number = 206;
+    draw.pic(tmp_pic_number);
+    show.pic();
+
+    cutscene_action_counter++;
+    cutscene_subaction_counter = 0;
+
+    erase(labcoat_person_object);
+    erase(hazmat_person_object);
+    erase(table_object);
+    erase(red_door_object);
+    erase(right_blue_door_object);
+    erase(left_blue_door_object);
+  }
+}
+
+if ((cutscene_action_counter == 5) && (cutscene_subaction_counter < 3)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 5) && (cutscene_subaction_counter == 3)) {
+  // Lights on
+  tmp_pic_number = 202;
+  draw.pic(tmp_pic_number);
+  show.pic();
+
+  cutscene_action_counter++;
+  cutscene_subaction_counter = 0;
+
+  draw(labcoat_person_object);
+  draw(hazmat_person_object);
+  draw(table_object);
+  draw(red_door_object);
+  draw(left_blue_door_object);
+  draw(right_blue_door_object);
+}
+
+if ((cutscene_action_counter == 6) && (cutscene_subaction_counter < 3)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 6) && (cutscene_subaction_counter == 3)) {
+  // Lights out
+  tmp_pic_number = 206;
+  draw.pic(tmp_pic_number);
+  show.pic();
+
+  cutscene_action_counter++;
+  cutscene_subaction_counter = 0;
+
+  erase(labcoat_person_object);
+  erase(hazmat_person_object);
+  erase(table_object);
+  erase(red_door_object);
+  erase(right_blue_door_object);
+  erase(left_blue_door_object);
+}
+
+if ((cutscene_action_counter == 7) && (cutscene_subaction_counter < 10)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 7) && (cutscene_subaction_counter == 10)) {
+  cutscene_action_counter++;
+  cutscene_subaction_counter = 0;
+
+  // "What happened?  What's wrong?"
+  set.loop(hazmat_speech_bubble_object, 6);
+  draw(hazmat_speech_bubble_object);
+}
+
+if ((cutscene_action_counter == 8) && (cutscene_subaction_counter < 30)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 8) && (cutscene_subaction_counter == 30)) {
+  cutscene_action_counter++;
+  cutscene_subaction_counter = 0;
+
+  // "I don't know, let me check the other console..."
+  set.loop(labcoat_speech_bubble_object, 7);
+  draw(labcoat_speech_bubble_object);
+}
+
+if ((cutscene_action_counter == 9) && (cutscene_subaction_counter < 50)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 9) && (cutscene_subaction_counter == 50)) {
+  cutscene_action_counter++;
+  cutscene_subaction_counter = 0;
+
+  // "Oh no!  Get out of there now!"
+  set.loop(labcoat_speech_bubble_object, 8);
+  erase(hazmat_speech_bubble_object);
+}
+
+if ((cutscene_action_counter == 10) && (cutscene_subaction_counter < 30)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 10) && (cutscene_subaction_counter == 30)) {
+  // Lights on
+  tmp_pic_number = 202;
+  draw.pic(tmp_pic_number);
+  show.pic();
+
+  cutscene_action_counter++;
+  cutscene_subaction_counter = 0;
+
+  draw(labcoat_person_object);
+  draw(hazmat_person_object);
+  draw(table_object);
+  draw(red_door_object);
+  draw(left_blue_door_object);
+  draw(right_blue_door_object);
+
+  reposition.to(labcoat_person_object, 70, 120);
+  stop.cycling(labcoat_person_object);
+  stop.cycling(hazmat_person_object);
+  erase(labcoat_speech_bubble_object);
+}
+
+if (cutscene_action_counter == 11) {
+  cutscene_action_counter++;
+  cutscene_subaction_counter = 0;
+
+  // Gray goo covers the hazmat
+  set.loop(hazmat_person_object, 1);
+  set.cel(hazmat_person_object, 0);
+
+  // Labcoat scientist freaks out
+  load.view(154);
+  set.view(labcoat_person_object, 154);
+  set.loop(labcoat_person_object, 1);
+
+  start.cycling(labcoat_person_object);
+  start.cycling(hazmat_person_object);
+
+  tmp_cycle_time = 2;
+  cycle.time(labcoat_person_object, tmp_cycle_time);
+  tmp_cycle_time = 3;
+  cycle.time(hazmat_person_object, tmp_cycle_time);
+}
+
+if (cutscene_action_counter == 12) {
+  current.cel(labcoat_person_object, tmp_cel_number);
+
+  if (tmp_cel_number == 2) {
+    // Labcoat scientist pounds on the glass
+    set.loop(labcoat_person_object, 1);
+    set.cel(labcoat_person_object, 0);
+    cutscene_action_counter++;
+  }
+}
+
+if (cutscene_action_counter == 13) {
+  current.cel(hazmat_person_object, tmp_cel_number);
+
+  if (tmp_cel_number == 13) {
+    // Labcoat scientist waves hands in air
+    set.loop(labcoat_person_object, 2);
+    cutscene_action_counter++;
+  }
+}
+
+if (cutscene_action_counter == 14) {
+  current.cel(hazmat_person_object, tmp_cel_number);
+
+  if (tmp_cel_number == 18) {
+    new.room(205);
+  }
+}
+
+if (have.key()) {
+  quit(1);
+}
+return();

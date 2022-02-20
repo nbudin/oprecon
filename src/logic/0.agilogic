@@ -1,0 +1,287 @@
+#include "defines.agilogic"
+
+if (error_code > 0) {
+  call(98);
+}
+
+if (room_no == 0) {
+  call(91);
+
+  if (game_restarted) {
+    disable.item(menu_fileseparator);
+    set(menu_enabled);
+    reset(disable_game_functions);
+    new.room(2);
+  } else {
+    set.menu("AGI");
+    set.menu.item("About      ", menu_about);
+    set.menu.item("Help   <F1>", menu_help);
+    set.menu("File");
+    set.menu.item("Save     <F5>", menu_save);
+    set.menu.item("Restore  <F7>", menu_restart);
+    set.menu.item("-------------", menu_fileseparator);
+    set.menu.item("Restart  <F9>", menu_restart);
+    set.menu.item("Quit  <Alt-Z>", menu_quit);
+    set.menu("Action");
+    set.menu.item("See Object  <F4>", menu_seeobject);
+    set.menu.item("Inventory  <Tab>", menu_inventory);
+    set.menu("Special");
+    set.menu.item("Sound On/Off      <F2>", menu_soundonoff);
+    set.menu.item("Clock On/Off      <F6>", menu_clock);
+    set.menu.item("Joystick      <Ctrl J>", menu_joystick);
+    set.menu.item("Pause            <Esc>", menu_pause);
+    set.menu("Speed");
+    set.menu.item("Normal ", menu_normalspeed);
+    set.menu.item("Slow   ", menu_slowspeed);
+    set.menu.item("Fast   ", menu_fastspeed);
+    set.menu.item("Fastest", menu_fastestspeed);
+    submit.menu();
+    disable.item(menu_fileseparator);
+
+    // starting room of the trailer
+    new.room(201);
+  }
+}
+
+if (new_room) {
+  load.logics(90);
+  reset(debug_active);
+  clear.lines(24, 24, 0);
+  animate.obj(ego);
+  load.view.v(ego_view_no);
+  set.view.v(ego, ego_view_no);
+  observe.objs(ego);
+  old_clock_seconds = 255;
+}
+
+if (death_type > 0) {
+  if (death_type != 255) {
+    disable.item(menu_about);
+    disable.item(menu_help);
+    disable.item(menu_save);
+    disable.item(menu_pause);
+    disable.item(menu_soundonoff);
+    disable.item(menu_seeobject);
+    disable.item(menu_joystick);
+    disable.item(menu_normalspeed);
+    disable.item(menu_fastestspeed);
+    disable.item(menu_fastspeed);
+    disable.item(menu_slowspeed);
+    load.logics(94);
+  }
+  call(94);
+} else {
+  if (!disable_game_functions) {
+    if (controller(key_activiate_menu)) {
+      menu.input();
+    }
+  }
+
+  if (controller(menu_about)) {
+    print("(about message)");
+  }
+
+  if (controller(menu_fastestspeed) || said("fastest") || said("fastest", "speed")) {
+    cycle_delay = 0;
+  }
+
+  if (controller(menu_fastspeed) || said("fast") || said("fast", "speed")) {
+    cycle_delay = 1;
+  }
+
+  if (controller(menu_normalspeed) || said("normal") || said("normal", "speed")) {
+    cycle_delay = 2;
+  }
+
+  if (controller(menu_slowspeed) || said("slow") || said("slow", "speed")) {
+    cycle_delay = 4;
+  }
+
+  if (controller(key_decreasevolume)) {
+    v23--;
+  }
+
+  if (controller(key_increasevolume) && (sound_volume < 15)) {
+    v23++;
+  }
+
+  if (controller(menu_soundonoff)) {
+    toggle(sound_on);
+  }
+
+  if (!disable_game_functions) {
+    if (!debug_active) {
+      if (controller(key_debug)) {
+        set(debug_active);
+        print("(game version)");
+        version();
+        load.logics(99);
+      }
+    }
+
+    if (controller(menu_save) || said("save", "game") || said("save")) {
+      stop.sound();
+      save.game();
+    }
+
+    if (controller(menu_restore) || said("restore", "game") || said("restore")) {
+      stop.sound();
+      restore.game();
+    }
+
+    if (controller(menu_restart) || said("restart", "game") || said("restart")) {
+      restart.game();
+    }
+
+    if (controller(menu_help) || said("help")) {
+      call(92);
+    }
+
+    if (controller(key_echoline)) {
+      echo.line();
+    }
+
+    if (controller(key_clearinputline)) {
+      cancel.line();
+    }
+
+    if (controller(menu_joystick)) {
+      init.joy();
+    }
+
+    if (controller(menu_pause) || said("pause", "game") || said("pause")) {
+      pause();
+    }
+
+    if (controller(menu_inventory) || said("inv")) {
+      status();
+    }
+
+    if (controller(menu_seeobject) || controller(key_seeobject)) {
+      set(inventory_select_enabled);
+      status();
+
+      if ((selected_inventory_item > 0) && (selected_inventory_item != 255)) {
+        if (selected_inventory_item == 1) {
+          show.obj(220);
+        }
+        reset(inventory_select_enabled);
+      }
+    }
+
+  Address492:
+
+    if (controller(menu_quit) || said("quit", "game") || said("quit")) {
+      stop.sound();
+      quit(0);
+    }
+  }
+
+  get.posn(ego, new_ego_x, new_ego_y);
+
+  if ((ego_dir == old_ego_dir) && (new_ego_x == old_ego_x) && (new_ego_y == old_ego_y)) {
+    stop.cycling(ego);
+  } else {
+    if (!never_animate_ego) {
+      start.cycling(ego);
+    }
+  }
+
+  old_ego_x = new_ego_x;
+  old_ego_y = new_ego_y;
+  old_ego_dir = ego_dir;
+
+  if (always_animate_ego) {
+    start.cycling(ego);
+  } else {
+    if ((ego_dir == 0) || never_animate_ego) {
+      stop.cycling(ego);
+    }
+  }
+
+  if (said("clock") || controller(menu_clock)) {
+    toggle(clock_active);
+
+    if (!clock_active) {
+      status.line.on();
+    } else {
+      old_clock_seconds = 255;
+    }
+  }
+
+  if (clock_active && !disable_game_functions) {
+    if (old_clock_seconds != clock_seconds) {
+      set.text.attribute(0, 15);
+      display(0, 18, " %v13:%v12|2:%v11|2 ");
+      set.text.attribute(15, 0);
+      old_clock_seconds = clock_seconds;
+    }
+  }
+
+  if (game_restored) {
+    clear.lines(23, 24, 0);
+    reset(debug_active);
+    disable.item(menu_fileseparator);
+  }
+  call.v(room_no);
+
+  if (debug_active) {
+    call(99);
+  }
+  call(90);
+
+  if (input_recieved && (unknown_word_no > 0)) {
+    reset(input_recieved);
+
+    if (unknown_word_no == 1) {
+      print("I don't understand \"%w1\"");
+    }
+
+    if (unknown_word_no == 2) {
+      print("I don't understand \"%w2\"");
+    }
+
+    if (unknown_word_no == 3) {
+      print("I don't understand \"%w3\"");
+    }
+  }
+
+  if (input_recieved && !input_parsed) {
+    print("I don't understand your request.");
+    reset(input_recieved);
+  }
+  reset(input_parsed);
+}
+return();
+
+
+// messages
+#message 1 "AGI"
+#message 2 "About      "
+#message 3 "Help   <F1>"
+#message 4 "File"
+#message 5 "Save     <F5>"
+#message 6 "Restore  <F7>"
+#message 7 "-------------"
+#message 8 "Restart  <F9>"
+#message 9 "Quit  <Alt-Z>"
+#message 10 "Action"
+#message 11 "See Object  <F4>"
+#message 12 "Inventory  <Tab>"
+#message 13 "Special"
+#message 14 "Sound On/Off      <F2>"
+#message 15 "Clock On/Off      <F6>"
+#message 16 "Joystick      <Ctrl J>"
+#message 17 "Pause            <Esc>"
+#message 18 "Speed"
+#message 19 "Normal "
+#message 20 "Slow   "
+#message 21 "Fast   "
+#message 22 "Fastest"
+#message 23 "(about message)"
+#message 24 "(game version)"
+#message 25 " %v13:%v12|2:%v11|2 "
+#message 26 "I don't understand \"%w1\""
+#message 27 "I don't understand \"%w2\""
+#message 28 "I don't understand \"%w3\""
+#message 29 "I don't understand your request."

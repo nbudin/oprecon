@@ -1,0 +1,55 @@
+#include "defines.agilogic"
+
+if (death_type != 255) {
+  accept.input();
+  cancel.line();
+  program.control();
+  clear.lines(23, 24, 0);
+  thankyou_timer = 12;
+
+  if (death_type == 1) {
+    print("You are now dead.");
+  }
+  death_type = 255;
+}
+thankyou_timer--;
+
+if (thankyou_timer == 1) {
+  print("Thank you for playing this game. Better luck next time!");
+}
+
+if (controller(key_activiate_menu)) {
+  menu.input();
+}
+
+if (controller(menu_help) || said("help")) {
+  call(92);
+}
+
+if (controller(menu_restore) || said("restore", "game") || said("restore")) {
+  restore.game();
+}
+
+if (controller(menu_restart) || said("restart", "game") || said("restart")) {
+  restart.game();
+}
+
+if (controller(menu_inventory) || said("inv")) {
+  status();
+}
+
+if (controller(menu_quit) || said("quit")) {
+  stop.sound();
+  quit(0);
+}
+
+if (input_recieved && !input_parsed) {
+  print("You are dead! You can only restore, restart, quit the game or view your inventory.");
+}
+return();
+
+
+// messages
+#message 1 "You are now dead."
+#message 2 "Thank you for playing this game. Better luck next time!"
+#message 3 "You are dead! You can only restore, restart, quit the game or view your inventory."

@@ -1,0 +1,127 @@
+#include "defines.agilogic"
+#include "cutscene.agilogic"
+
+#define airlock_door_object o8
+#define hatch_object o9
+#define vent_object o10
+#define marquee_object o5
+#define ship_object o4
+
+if (new_room) {
+  load.pic(room_no);
+  draw.pic(room_no);
+  discard.pic(room_no);
+  set.horizon(0);
+  status.line.off();
+  prevent.input();
+  program.control();
+
+  animate.obj(airlock_door_object);
+  load.view(181);
+  set.view(airlock_door_object, 181);
+  position(airlock_door_object, 10, 132);
+  stop.cycling(airlock_door_object);
+  draw(airlock_door_object);
+
+  animate.obj(hatch_object);
+  load.view(182);
+  set.view(hatch_object, 182);
+  ignore.blocks(hatch_object);
+  position(hatch_object, 18, 16);
+  set.cel(hatch_object, 5);
+  stop.cycling(hatch_object);
+  draw(hatch_object);
+
+  animate.obj(vent_object);
+  load.view(185);
+  set.view(vent_object, 185);
+  ignore.blocks(vent_object);
+  position(vent_object, 125, 79);
+  tmp_cycle_time = 3;
+  cycle.time(vent_object, tmp_cycle_time);
+  stop.cycling(vent_object);
+  draw(vent_object);
+
+  animate.obj(marquee_object);
+  load.view(186);
+  set.view(marquee_object, 186);
+  ignore.blocks(marquee_object);
+  position(marquee_object, 64, 43);
+  cycle.time(marquee_object, tmp_cycle_time);
+  set.cel(marquee_object, 1);
+  draw(marquee_object);
+  stop.cycling(marquee_object);
+
+  animate.obj(ship_object);
+  load.view(187);
+  set.view(ship_object, 187);
+  ignore.blocks(ship_object);
+  position(ship_object, 37, 120);
+  set.priority(ship_object, 9);
+  draw(ship_object);
+  move.obj(ship_object, 37, 157, 0, movement_done);
+
+  show.pic();
+  load.sound(211);
+  sound(211, sound_done);
+  cutscene_action_counter = 0;
+  cutscene_subaction_counter = 0;
+}
+
+if ((cutscene_action_counter == 0) && movement_done) {
+  cutscene_action_counter++;
+}
+
+if ((cutscene_action_counter == 1) && (cutscene_subaction_counter < 10)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 1) && (cutscene_subaction_counter == 10)) {
+  cutscene_subaction_counter = 0;
+  cutscene_action_counter++;
+  set.loop(marquee_object, 1);
+  set.cel(marquee_object, 0);
+  start.cycling(marquee_object);
+}
+
+if (cutscene_action_counter == 2) {
+  current.cel(marquee_object, v39);
+
+  if (v39 == 20) {
+    set.loop(marquee_object, 0);
+    set.cel(marquee_object, 2);
+    stop.cycling(marquee_object);
+    cutscene_action_counter++;
+    cutscene_subaction_counter = 0;
+  }
+}
+
+if ((cutscene_action_counter == 2) && (cutscene_subaction_counter < 45)) {
+  cutscene_subaction_counter++;
+
+  if (cutscene_subaction_counter == 15) {
+    reverse.cycle(hatch_object);
+  }
+
+  if (cutscene_subaction_counter == 20) {
+    stop.cycling(hatch_object);
+  }
+
+  if (cutscene_subaction_counter == 30) {
+    start.cycling(vent_object);
+  }
+
+  if (cutscene_subaction_counter == 36) {
+    stop.cycling(vent_object);
+  }
+}
+
+if (sound_done && (cutscene_action_counter == 3)) {
+  new.room(213);
+}
+
+if (have.key()) {
+  quit(1);
+}
+
+return();

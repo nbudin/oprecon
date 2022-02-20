@@ -1,0 +1,58 @@
+#include "defines.agilogic"
+#include "cutscene.agilogic"
+
+#define ship_object o4
+
+if (new_room) {
+  load.pic(room_no);
+  draw.pic(room_no);
+  discard.pic(room_no);
+  set.horizon(50);
+  status.line.off();
+  prevent.input();
+  program.control();
+  animate.obj(ship_object);
+  load.view(180);
+  set.view(ship_object, 180);
+  position(ship_object, 103, 106);
+  set.priority(ship_object, 5);
+  stop.cycling(ship_object);
+  draw(ship_object);
+  move.obj(ship_object, 87, 90, 0, movement_done);
+
+  show.pic();
+
+  load.sound(209);
+  sound(209, sound_done);
+
+  cutscene_action_counter = 0;
+}
+
+if ((cutscene_action_counter == 0) && movement_done) {
+  cutscene_action_counter++;
+  set.cel(ship_object, 1);
+  set.priority(ship_object, 6);
+  move.obj(ship_object, 83, 90, 0, movement_done);
+}
+
+if ((cutscene_action_counter == 1) && movement_done) {
+  cutscene_action_counter++;
+  set.cel(ship_object, 2);
+  set.priority(ship_object, 6);
+  move.obj(ship_object, 51, 122, 0, movement_done);
+}
+
+if ((cutscene_action_counter == 2) && movement_done) {
+  cutscene_action_counter++;
+  set.cel(ship_object, 3);
+  move.obj(ship_object, 11, 159, 0, movement_done);
+}
+
+if (sound_done) {
+  new.room(211);
+}
+
+if (have.key()) {
+  quit(1);
+}
+return();

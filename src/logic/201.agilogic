@@ -1,0 +1,259 @@
+#include "defines.agilogic"
+#include "cutscene.agilogic"
+
+#define text_object o2
+#define cursor_object o1
+
+if (new_room) {
+  script.size(250);
+  load.pic(room_no);
+  tmp_pic_number = 202;
+  load.pic(tmp_pic_number);
+  draw.pic(room_no);
+  set.horizon(50);
+  status.line.off();
+  prevent.input();
+  program.control();
+  show.pic();
+  load.sound(0);
+  load.view(151);
+  load.view(152);
+  animate.obj(cursor_object);
+  set.view(cursor_object, 152);
+  position(cursor_object, 1, 165);
+  animate.obj(text_object);
+  set.view(text_object, 151);
+  position(text_object, 1, 164);
+  set.loop(text_object, 2);
+  stop.cycling(text_object);
+  tmp_cycle_time = 3;
+  draw(cursor_object);
+  cycle.time(cursor_object, tmp_cycle_time);
+  cutscene_subaction_counter = 1;
+}
+
+if (cutscene_subaction_counter == 11) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 7, 165);
+}
+
+if (cutscene_subaction_counter == 12) {
+  start.cycling(text_object);
+  draw(text_object);
+  sound(0, sound_done);
+  reposition.to(cursor_object, 13, 165);
+}
+
+if (cutscene_subaction_counter == 13) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 19, 165);
+}
+
+if (cutscene_subaction_counter == 14) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 25, 165);
+}
+
+if (cutscene_subaction_counter == 15) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 31, 165);
+}
+
+if (cutscene_subaction_counter == 16) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 37, 165);
+}
+
+if (cutscene_subaction_counter == 17) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 43, 165);
+}
+
+if (cutscene_subaction_counter == 18) {
+  stop.cycling(text_object);
+}
+
+if (cutscene_subaction_counter == 27) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 7, 165);
+}
+
+if (cutscene_subaction_counter == 28) {
+  set.loop(text_object, 3);
+  set.cel(text_object, 0);
+  start.cycling(text_object);
+  sound(0, sound_done);
+  reposition.to(cursor_object, 13, 165);
+}
+
+if (cutscene_subaction_counter == 29) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 19, 165);
+}
+
+if (cutscene_subaction_counter == 30) {
+  reposition.to(cursor_object, 25, 165);
+}
+
+if (cutscene_subaction_counter == 31) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 31, 165);
+}
+
+if (cutscene_subaction_counter == 32) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 37, 165);
+}
+
+if (cutscene_subaction_counter == 33) {
+  reposition.to(cursor_object, 43, 165);
+}
+
+if (cutscene_subaction_counter == 34) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 49, 165);
+}
+
+if (cutscene_subaction_counter == 35) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 55, 165);
+}
+
+if (cutscene_subaction_counter == 36) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 61, 165);
+}
+
+if (cutscene_subaction_counter == 37) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 67, 165);
+}
+
+if (cutscene_subaction_counter == 38) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 73, 165);
+}
+
+if (cutscene_subaction_counter == 39) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 79, 165);
+}
+
+if (cutscene_subaction_counter == 40) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 85, 165);
+}
+
+if (cutscene_subaction_counter == 41) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 91, 165);
+}
+
+if (cutscene_subaction_counter == 42) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 97, 165);
+}
+
+if (cutscene_subaction_counter == 43) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 103, 165);
+}
+
+if (cutscene_subaction_counter == 44) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 109, 165);
+}
+
+if (cutscene_subaction_counter == 45) {
+  stop.cycling(text_object);
+}
+
+if (cutscene_subaction_counter == 54) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 7, 165);
+}
+
+if (cutscene_subaction_counter == 55) {
+  set.loop(text_object, 4);
+  set.cel(text_object, 0);
+  start.cycling(text_object);
+  sound(0, sound_done);
+  reposition.to(cursor_object, 13, 165);
+}
+
+if (cutscene_subaction_counter == 56) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 19, 165);
+}
+
+if (cutscene_subaction_counter == 57) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 25, 165);
+}
+
+if (cutscene_subaction_counter == 58) {
+  stop.cycling(text_object);
+}
+
+if (cutscene_subaction_counter == 65) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 7, 165);
+}
+
+if (cutscene_subaction_counter == 66) {
+  set.loop(text_object, 5);
+  set.cel(text_object, 0);
+  start.cycling(text_object);
+  sound(0, sound_done);
+  reposition.to(cursor_object, 13, 165);
+}
+
+if (cutscene_subaction_counter == 67) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 19, 165);
+}
+
+if (cutscene_subaction_counter == 68) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 25, 165);
+}
+
+if (cutscene_subaction_counter == 69) {
+  reposition.to(cursor_object, 31, 165);
+}
+
+if (cutscene_subaction_counter == 70) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 37, 165);
+}
+
+if (cutscene_subaction_counter == 71) {
+  sound(0, sound_done);
+  reposition.to(cursor_object, 43, 165);
+}
+
+if (cutscene_subaction_counter == 72) {
+  stop.cycling(text_object);
+}
+
+if (cutscene_subaction_counter == 86) {
+  load.sound(201);
+  sound(201, sound_done);
+}
+
+if (cutscene_subaction_counter == 114) {
+  new.room(202);
+}
+
+if (have.key()) {
+  quit(1);
+}
+
+if (cutscene_subaction_counter > 0) {
+  cutscene_subaction_counter++;
+}
+return();
+
+
+// messages
+

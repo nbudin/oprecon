@@ -1,0 +1,50 @@
+#include "defines.agilogic"
+#include "cutscene.agilogic"
+
+#define arm_object o12
+
+if (new_room) {
+  load.pic(room_no);
+  draw.pic(room_no);
+  discard.pic(room_no);
+  set.horizon(50);
+  status.line.off();
+  prevent.input();
+  program.control();
+
+  animate.obj(ego);
+  load.view(172);
+  set.view(ego, 172);
+  position(ego, 3, 161);
+
+  animate.obj(arm_object);
+  load.view(171);
+  set.view(arm_object, 171);
+  tmp_cel_number = 3;
+  cycle.time(arm_object, tmp_cel_number);
+  position(arm_object, 94, 167);
+  draw(arm_object);
+  show.pic();
+  cutscene_action_counter = 0;
+}
+
+if (cutscene_action_counter == 0) {
+  current.cel(arm_object, tmp_cel_number);
+
+  if (tmp_cel_number == 12) {
+    set.loop(arm_object, 1);
+    draw(ego);
+    cutscene_action_counter++;
+    load.sound(206);
+    sound(206, sound_done);
+  }
+}
+
+if ((cutscene_action_counter == 1) && sound_done) {
+  new.room(207);
+}
+
+if (have.key()) {
+  quit(1);
+}
+return();

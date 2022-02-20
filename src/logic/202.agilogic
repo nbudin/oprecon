@@ -1,0 +1,260 @@
+#include "defines.agilogic"
+#include "cutscene.agilogic"
+#include "cutscene-lab.agilogic"
+
+if (new_room) {
+  load.pic(room_no);
+  draw.pic(room_no);
+  discard.pic(room_no);
+  set.horizon(50);
+  status.line.off();
+  prevent.input();
+  program.control();
+
+  animate.obj(labcoat_person_object);
+  release.loop(labcoat_person_object);
+  stop.motion(labcoat_person_object);
+  load.view(153);
+  set.view(labcoat_person_object, 153);
+  position(labcoat_person_object, 102, 119);
+  set.loop(labcoat_person_object, 1);
+  stop.cycling(labcoat_person_object);
+  draw(labcoat_person_object);
+
+  animate.obj(labcoat_speech_bubble_object);
+  load.view(169);
+  set.view(labcoat_speech_bubble_object, 169);
+  set.priority(labcoat_speech_bubble_object, 15);
+  ignore.blocks(labcoat_speech_bubble_object);
+  position(labcoat_speech_bubble_object, 85, 82);
+  set.loop(labcoat_speech_bubble_object, 0);
+
+  animate.obj(hazmat_speech_bubble_object);
+  set.view(hazmat_speech_bubble_object, 169);
+  set.priority(hazmat_speech_bubble_object, 15);
+  ignore.blocks(hazmat_speech_bubble_object);
+  position(hazmat_speech_bubble_object, 44, 150);
+  set.loop(hazmat_speech_bubble_object, 1);
+
+  animate.obj(right_blue_door_object);
+  load.view(167);
+  set.view(right_blue_door_object, 167);
+  ignore.blocks(right_blue_door_object);
+  position(right_blue_door_object, 141, 93);
+  set.priority(right_blue_door_object, 10);
+  set.cel(right_blue_door_object, 4);
+  stop.cycling(right_blue_door_object);
+  draw(right_blue_door_object);
+
+  animate.obj(left_blue_door_object);
+  load.view(168);
+  set.view(left_blue_door_object, 168);
+  ignore.blocks(left_blue_door_object);
+  position(left_blue_door_object, 4, 94);
+  set.cel(left_blue_door_object, 8);
+  stop.cycling(left_blue_door_object);
+  draw(left_blue_door_object);
+
+  animate.obj(red_door_object);
+  load.view(166);
+  set.view(red_door_object, 166);
+  ignore.blocks(red_door_object);
+  set.priority(red_door_object, 8);
+  position(red_door_object, 32, 73);
+  stop.cycling(red_door_object);
+  draw(red_door_object);
+
+  load.sound(202);
+  sound(202, sound_done);
+
+  show.pic();
+  cutscene_action_counter = 0;
+  cutscene_subaction_counter = 0;
+
+  animate.obj(hazmat_person_object);
+  load.view(156);
+  ignore.blocks(hazmat_person_object);
+  set.view(hazmat_person_object, 156);
+  release.loop(hazmat_person_object);
+  position(hazmat_person_object, 33, 69);
+  stop.cycling(hazmat_person_object);
+  draw(hazmat_person_object);
+
+  animate.obj(table_object);
+  load.view(157);
+  ignore.blocks(table_object);
+  set.view(table_object, 157);
+  position(table_object, 66, 86);
+  draw(table_object);
+}
+
+if (sound_done && (cutscene_action_counter == 0)) {
+  cutscene_action_counter++;
+  start.cycling(labcoat_person_object);
+  move.obj(labcoat_person_object, 105, 119, 0, movement_done);
+}
+
+if (movement_done && (cutscene_action_counter == 1)) {
+  cutscene_action_counter++;
+  reset(movement_done);
+  move.obj(labcoat_person_object, 110, 114, 0, movement_done);
+}
+
+if (movement_done && (cutscene_action_counter == 2)) {
+  cutscene_action_counter++;
+  reset(movement_done);
+  move.obj(labcoat_person_object, 114, 108, 0, movement_done);
+}
+
+if (movement_done && (cutscene_action_counter == 3)) {
+  cutscene_action_counter++;
+  set.loop(labcoat_person_object, 1);
+  set.cel(labcoat_person_object, 3);
+  stop.cycling(labcoat_person_object);
+}
+
+if ((cutscene_action_counter == 4) && (cutscene_subaction_counter < 10)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 4) && (cutscene_subaction_counter == 10)) {
+  cutscene_subaction_counter = 0;
+  cutscene_action_counter++;
+
+  // "Prepare test Delta-1."
+  draw(labcoat_speech_bubble_object);
+}
+
+if ((cutscene_action_counter == 5) && (cutscene_subaction_counter < 15)) {
+  cutscene_subaction_counter++;
+
+  if (cutscene_subaction_counter == 7) {
+    reverse.cycle(left_blue_door_object);
+  }
+
+  if (cutscene_subaction_counter == 11) {
+    reverse.cycle(right_blue_door_object);
+  }
+}
+
+if ((cutscene_action_counter == 5) && (cutscene_subaction_counter == 15)) {
+  stop.cycling(right_blue_door_object);
+  stop.cycling(left_blue_door_object);
+  cutscene_subaction_counter = 0;
+  cutscene_action_counter++;
+
+  // "Test ready."
+  draw(hazmat_speech_bubble_object);
+}
+
+if ((cutscene_action_counter == 6) && (cutscene_subaction_counter < 13)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 6) && (cutscene_subaction_counter == 13)) {
+  start.cycling(red_door_object);
+  cutscene_subaction_counter = 0;
+  cutscene_action_counter++;
+}
+
+current.cel(red_door_object, tmp_cel_number);
+
+if ((cutscene_action_counter == 7) && (tmp_cel_number == 4)) {
+  stop.cycling(red_door_object);
+  cutscene_action_counter++;
+  start.cycling(hazmat_person_object);
+  move.obj(hazmat_person_object, 49, 70, 1, movement_done);
+}
+
+if ((cutscene_action_counter == 8) && movement_done) {
+  move.obj(hazmat_person_object, 58, 83, 0, movement_done);
+  cutscene_action_counter++;
+}
+
+if ((cutscene_action_counter == 9) && movement_done) {
+  set.loop(hazmat_person_object, 0);
+  stop.cycling(hazmat_person_object);
+  set.cel(hazmat_person_object, 0);
+  cutscene_action_counter++;
+  erase(labcoat_speech_bubble_object);
+  erase(hazmat_speech_bubble_object);
+}
+
+if ((cutscene_action_counter == 10) && (cutscene_subaction_counter < 8)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 10) && (cutscene_subaction_counter == 8)) {
+  cutscene_subaction_counter = 0;
+  cutscene_action_counter++;
+  load.view(158);
+  set.view(hazmat_person_object, 158);
+  start.cycling(hazmat_person_object);
+}
+
+if (cutscene_action_counter == 11) {
+  current.cel(hazmat_person_object, tmp_cel_number);
+
+  if (tmp_cel_number == 7) {
+    set.loop(o4, 1);
+  }
+
+  if (tmp_cel_number == 11) {
+    stop.cycling(hazmat_person_object);
+    cutscene_action_counter++;
+    reposition.to(labcoat_speech_bubble_object, 35, 62);
+    set.loop(labcoat_speech_bubble_object, 2);
+    draw(labcoat_speech_bubble_object);
+  }
+}
+
+if ((cutscene_action_counter == 12) && (cutscene_subaction_counter < 10)) {
+  cutscene_subaction_counter++;
+}
+
+if ((cutscene_action_counter == 12) && (cutscene_subaction_counter == 10)) {
+  cutscene_action_counter++;
+  cutscene_subaction_counter = 0;
+  reverse.cycle(red_door_object);
+}
+
+if (cutscene_action_counter == 13) {
+  current.cel(red_door_object, tmp_cel_number);
+
+  if (tmp_cel_number == 0) {
+    stop.cycling(red_door_object);
+    cutscene_action_counter++;
+  }
+}
+
+if (cutscene_action_counter == 14) {
+  load.view(159);
+  set.view(table_object, 159);
+  tmp_cycle_time = 2;
+  cycle.time(table_object, tmp_cycle_time);
+  reposition.to(table_object, 63, 88);
+  cutscene_action_counter++;
+}
+
+if (cutscene_action_counter == 15) {
+  current.cel(table_object, tmp_cel_number);
+
+  if (tmp_cel_number == 10) {
+    load.view(160);
+    set.view(table_object, 160);
+    reposition.to(table_object, 59, 88);
+    cutscene_action_counter++;
+    load.sound(203);
+    sound(203, sound_done);
+    erase(labcoat_speech_bubble_object);
+  }
+}
+
+if ((cutscene_action_counter == 16) && sound_done) {
+  new.room(203);
+}
+
+if (have.key()) {
+  quit(1);
+}
+return();

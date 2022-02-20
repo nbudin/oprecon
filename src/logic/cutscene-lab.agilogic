@@ -1,0 +1,8 @@
+#define labcoat_person_object o2
+#define hazmat_person_object o3
+#define table_object o4
+#define labcoat_speech_bubble_object o6
+#define hazmat_speech_bubble_object o7
+#define right_blue_door_object o8
+#define left_blue_door_object o9
+#define red_door_object o10

@@ -1,0 +1,50 @@
+#include "defines.agilogic"
+#include "cutscene.agilogic"
+
+#define test_chamber_object o11
+
+if (new_room) {
+  load.pic(room_no);
+  draw.pic(room_no);
+  discard.pic(room_no);
+  set.horizon(50);
+  status.line.off();
+  prevent.input();
+  program.control();
+
+  animate.obj(test_chamber_object);
+  load.view(170);
+  set.view(test_chamber_object, 170);
+  tmp_cycle_time = 3;
+  cycle.time(test_chamber_object, tmp_cycle_time);
+  position(test_chamber_object, 57, 99);
+  draw(test_chamber_object);
+
+  load.sound(205);
+  sound(205, sound_done);
+
+  show.pic();
+  cutscene_action_counter = 0;
+}
+
+if (sound_done && (cutscene_action_counter == 0)) {
+  cutscene_action_counter++;
+  set.loop(test_chamber_object, 1);
+}
+
+if (cutscene_action_counter == 1) {
+  current.cel(test_chamber_object, tmp_cel_number);
+
+  if (tmp_cel_number == 16) {
+    new.room(204);
+  }
+}
+
+if (have.key()) {
+  quit(1);
+}
+return();
+
+
+// messages
+

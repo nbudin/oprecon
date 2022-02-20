@@ -1,0 +1,11443 @@
+{
+  "commands": [
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 0,
+          "y": 47
+        },
+        {
+          "x": 93,
+          "y": 39
+        },
+        {
+          "x": 122,
+          "y": 38
+        },
+        {
+          "x": 159,
+          "y": 40
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 74,
+          "y": 165
+        },
+        {
+          "x": 101,
+          "y": 115
+        },
+        {
+          "x": 148,
+          "y": 91
+        },
+        {
+          "x": 134,
+          "y": 88
+        },
+        {
+          "x": 94,
+          "y": 112
+        },
+        {
+          "x": 61,
+          "y": 159
+        },
+        {
+          "x": 73,
+          "y": 165
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 0,
+          "y": 129
+        },
+        {
+          "x": 84,
+          "y": 98
+        },
+        {
+          "x": 108,
+          "y": 103
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 123,
+          "y": 108
+        },
+        {
+          "x": 159,
+          "y": 117
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 159,
+          "y": 105
+        },
+        {
+          "x": 146,
+          "y": 102
+        },
+        {
+          "x": 123,
+          "y": 108
+        },
+        {
+          "x": 123,
+          "y": 137
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 87,
+          "y": 95
+        },
+        {
+          "x": 127,
+          "y": 65
+        },
+        {
+          "x": 135,
+          "y": 66
+        },
+        {
+          "x": 144,
+          "y": 75
+        },
+        {
+          "x": 137,
+          "y": 74
+        },
+        {
+          "x": 128,
+          "y": 72
+        },
+        {
+          "x": 121,
+          "y": 74
+        },
+        {
+          "x": 117,
+          "y": 78
+        },
+        {
+          "x": 113,
+          "y": 83
+        },
+        {
+          "x": 109,
+          "y": 90
+        },
+        {
+          "x": 108,
+          "y": 92
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 84,
+          "y": 99
+        },
+        {
+          "x": 84,
+          "y": 122
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 126,
+          "y": 65
+        },
+        {
+          "x": 112,
+          "y": 63
+        },
+        {
+          "x": 73,
+          "y": 90
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 65,
+          "y": 93
+        },
+        {
+          "x": 0,
+          "y": 120
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 0,
+          "y": 159
+        },
+        {
+          "x": 56,
+          "y": 141
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 75,
+          "y": 165
+        },
+        {
+          "x": 97,
+          "y": 158
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 104,
+          "y": 155
+        },
+        {
+          "x": 118,
+          "y": 149
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 148,
+          "y": 92
+        },
+        {
+          "x": 148,
+          "y": 101
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 64,
+          "y": 93
+        },
+        {
+          "x": 47,
+          "y": 88
+        },
+        {
+          "x": 47,
+          "y": 101
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 15,
+          "y": 113
+        },
+        {
+          "x": 27,
+          "y": 94
+        },
+        {
+          "x": 71,
+          "y": 76
+        },
+        {
+          "x": 71,
+          "y": 84
+        },
+        {
+          "x": 71,
+          "y": 76
+        },
+        {
+          "x": 69,
+          "y": 74
+        },
+        {
+          "x": 66,
+          "y": 73
+        },
+        {
+          "x": 64,
+          "y": 72
+        },
+        {
+          "x": 60,
+          "y": 73
+        },
+        {
+          "x": 23,
+          "y": 91
+        },
+        {
+          "x": 3,
+          "y": 118
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 23,
+          "y": 92
+        },
+        {
+          "x": 26,
+          "y": 94
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 0,
+          "y": 79
+        },
+        {
+          "x": 29,
+          "y": 66
+        },
+        {
+          "x": 24,
+          "y": 65
+        },
+        {
+          "x": 23,
+          "y": 63
+        },
+        {
+          "x": 0,
+          "y": 74
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 35,
+          "y": 84
+        },
+        {
+          "x": 7,
+          "y": 76
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 48,
+          "y": 78
+        },
+        {
+          "x": 24,
+          "y": 73
+        },
+        {
+          "x": 11,
+          "y": 77
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 78,
+          "y": 86
+        },
+        {
+          "x": 68,
+          "y": 83
+        },
+        {
+          "x": 49,
+          "y": 88
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 29,
+          "y": 67
+        },
+        {
+          "x": 29,
+          "y": 73
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 9,
+          "y": 69
+        },
+        {
+          "x": 0,
+          "y": 68
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 117,
+          "y": 47
+        },
+        {
+          "x": 115,
+          "y": 57
+        },
+        {
+          "x": 116,
+          "y": 58
+        },
+        {
+          "x": 120,
+          "y": 59
+        },
+        {
+          "x": 122,
+          "y": 62
+        },
+        {
+          "x": 125,
+          "y": 62
+        },
+        {
+          "x": 126,
+          "y": 56
+        },
+        {
+          "x": 127,
+          "y": 49
+        },
+        {
+          "x": 127,
+          "y": 47
+        },
+        {
+          "x": 125,
+          "y": 48
+        },
+        {
+          "x": 123,
+          "y": 50
+        },
+        {
+          "x": 121,
+          "y": 49
+        },
+        {
+          "x": 117,
+          "y": 47
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 113,
+          "y": 63
+        },
+        {
+          "x": 120,
+          "y": 60
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 132,
+          "y": 65
+        },
+        {
+          "x": 126,
+          "y": 60
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 20,
+          "y": 45
+        },
+        {
+          "x": 43,
+          "y": 49
+        },
+        {
+          "x": 65,
+          "y": 57
+        },
+        {
+          "x": 87,
+          "y": 61
+        },
+        {
+          "x": 107,
+          "y": 65
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 144,
+          "y": 75
+        },
+        {
+          "x": 159,
+          "y": 76
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 120,
+          "y": 96
+        },
+        {
+          "x": 103,
+          "y": 91
+        },
+        {
+          "x": 87,
+          "y": 96
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 108,
+          "y": 144
+        },
+        {
+          "x": 107,
+          "y": 141
+        },
+        {
+          "x": 107,
+          "y": 138
+        },
+        {
+          "x": 108,
+          "y": 134
+        },
+        {
+          "x": 110,
+          "y": 133
+        },
+        {
+          "x": 159,
+          "y": 150
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 108,
+          "y": 144
+        },
+        {
+          "x": 159,
+          "y": 164
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 87,
+          "y": 154
+        },
+        {
+          "x": 86,
+          "y": 151
+        },
+        {
+          "x": 87,
+          "y": 149
+        },
+        {
+          "x": 88,
+          "y": 148
+        },
+        {
+          "x": 131,
+          "y": 167
+        },
+        {
+          "x": 120,
+          "y": 167
+        },
+        {
+          "x": 88,
+          "y": 154
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 86,
+          "y": 123
+        },
+        {
+          "x": 75,
+          "y": 120
+        },
+        {
+          "x": 73,
+          "y": 119
+        },
+        {
+          "x": 70,
+          "y": 121
+        },
+        {
+          "x": 69,
+          "y": 125
+        },
+        {
+          "x": 69,
+          "y": 128
+        },
+        {
+          "x": 70,
+          "y": 130
+        },
+        {
+          "x": 79,
+          "y": 133
+        },
+        {
+          "x": 60,
+          "y": 127
+        },
+        {
+          "x": 58,
+          "y": 128
+        },
+        {
+          "x": 57,
+          "y": 130
+        },
+        {
+          "x": 57,
+          "y": 132
+        },
+        {
+          "x": 58,
+          "y": 133
+        },
+        {
+          "x": 75,
+          "y": 139
+        },
+        {
+          "x": 72,
+          "y": 143
+        },
+        {
+          "x": 51,
+          "y": 133
+        },
+        {
+          "x": 50,
+          "y": 135
+        },
+        {
+          "x": 50,
+          "y": 137
+        },
+        {
+          "x": 69,
+          "y": 147
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 15,
+          "y": 102
+        },
+        {
+          "x": 0,
+          "y": 96
+        },
+        {
+          "x": 0,
+          "y": 103
+        },
+        {
+          "x": 10,
+          "y": 107
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 7,
+          "y": 112
+        },
+        {
+          "x": 0,
+          "y": 109
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 2
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 123,
+            "y": 56
+          }
+        },
+        {
+          "position": {
+            "x": 124,
+            "y": 54
+          }
+        },
+        {
+          "position": {
+            "x": 125,
+            "y": 51
+          }
+        },
+        {
+          "position": {
+            "x": 124,
+            "y": 57
+          }
+        },
+        {
+          "position": {
+            "x": 123,
+            "y": 59
+          }
+        }
+      ]
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 121,
+            "y": 58
+          }
+        },
+        {
+          "position": {
+            "x": 120,
+            "y": 57
+          }
+        },
+        {
+          "position": {
+            "x": 118,
+            "y": 57
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 57
+          }
+        },
+        {
+          "position": {
+            "x": 117,
+            "y": 57
+          }
+        },
+        {
+          "position": {
+            "x": 118,
+            "y": 57
+          }
+        },
+        {
+          "position": {
+            "x": 119,
+            "y": 57
+          }
+        },
+        {
+          "position": {
+            "x": 118,
+            "y": 58
+          }
+        },
+        {
+          "position": {
+            "x": 119,
+            "y": 58
+          }
+        },
+        {
+          "position": {
+            "x": 120,
+            "y": 58
+          }
+        },
+        {
+          "position": {
+            "x": 121,
+            "y": 59
+          }
+        },
+        {
+          "position": {
+            "x": 121,
+            "y": 57
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 125,
+            "y": 59
+          }
+        },
+        {
+          "position": {
+            "x": 123,
+            "y": 61
+          }
+        },
+        {
+          "position": {
+            "x": 122,
+            "y": 61
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 118,
+          "y": 52
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 69,
+          "y": 21
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 95,
+          "y": 52
+        },
+        {
+          "x": 54,
+          "y": 153
+        },
+        {
+          "x": 1,
+          "y": 113
+        },
+        {
+          "x": 35,
+          "y": 55
+        },
+        {
+          "x": 122,
+          "y": 81
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 57,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 58,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 58,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 59,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 58,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 59,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 60,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 59,
+            "y": 46
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePictureDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 58,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 58,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 58,
+            "y": 47
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 58,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 59,
+            "y": 49
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 59,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 60,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 61,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 60,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 61,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 62,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 64,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 66,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 65,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 63,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 63,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 65,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 64,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 62,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 66,
+            "y": 47
+          }
+        }
+      ]
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 68,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 61,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 63,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 65,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 67,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 67,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 67,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 67,
+            "y": 52
+          }
+        },
+        {
+          "position": {
+            "x": 66,
+            "y": 51
+          }
+        },
+        {
+          "position": {
+            "x": 64,
+            "y": 51
+          }
+        },
+        {
+          "position": {
+            "x": 62,
+            "y": 51
+          }
+        },
+        {
+          "position": {
+            "x": 60,
+            "y": 51
+          }
+        },
+        {
+          "position": {
+            "x": 59,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 61,
+            "y": 52
+          }
+        },
+        {
+          "position": {
+            "x": 63,
+            "y": 52
+          }
+        },
+        {
+          "position": {
+            "x": 65,
+            "y": 52
+          }
+        },
+        {
+          "position": {
+            "x": 68,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 68,
+            "y": 51
+          }
+        },
+        {
+          "position": {
+            "x": 69,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 69,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 69,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 68,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 66,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 67,
+            "y": 44
+          }
+        },
+        {
+          "position": {
+            "x": 69,
+            "y": 44
+          }
+        },
+        {
+          "position": {
+            "x": 64,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 62,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 60,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 63,
+            "y": 44
+          }
+        },
+        {
+          "position": {
+            "x": 65,
+            "y": 44
+          }
+        },
+        {
+          "position": {
+            "x": 68,
+            "y": 43
+          }
+        },
+        {
+          "position": {
+            "x": 66,
+            "y": 43
+          }
+        },
+        {
+          "position": {
+            "x": 64,
+            "y": 43
+          }
+        },
+        {
+          "position": {
+            "x": 65,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 67,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 69,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 61,
+            "y": 44
+          }
+        },
+        {
+          "position": {
+            "x": 62,
+            "y": 43
+          }
+        },
+        {
+          "position": {
+            "x": 62,
+            "y": 53
+          }
+        },
+        {
+          "position": {
+            "x": 64,
+            "y": 53
+          }
+        },
+        {
+          "position": {
+            "x": 66,
+            "y": 53
+          }
+        },
+        {
+          "position": {
+            "x": 68,
+            "y": 53
+          }
+        },
+        {
+          "position": {
+            "x": 70,
+            "y": 52
+          }
+        },
+        {
+          "position": {
+            "x": 69,
+            "y": 52
+          }
+        },
+        {
+          "position": {
+            "x": 70,
+            "y": 51
+          }
+        },
+        {
+          "position": {
+            "x": 70,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 70,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 60,
+            "y": 43
+          }
+        },
+        {
+          "position": {
+            "x": 58,
+            "y": 43
+          }
+        },
+        {
+          "position": {
+            "x": 56,
+            "y": 43
+          }
+        },
+        {
+          "position": {
+            "x": 57,
+            "y": 44
+          }
+        },
+        {
+          "position": {
+            "x": 59,
+            "y": 44
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 70,
+          "y": 43
+        },
+        {
+          "x": 88,
+          "y": 61
+        },
+        {
+          "x": 89,
+          "y": 61
+        },
+        {
+          "x": 89,
+          "y": 61
+        },
+        {
+          "x": 89,
+          "y": 60
+        },
+        {
+          "x": 62,
+          "y": 33
+        },
+        {
+          "x": 65,
+          "y": 33
+        },
+        {
+          "x": 74,
+          "y": 43
+        },
+        {
+          "x": 92,
+          "y": 61
+        },
+        {
+          "x": 92,
+          "y": 62
+        },
+        {
+          "x": 90,
+          "y": 62
+        },
+        {
+          "x": 90,
+          "y": 61
+        },
+        {
+          "x": 123,
+          "y": 28
+        },
+        {
+          "x": 121,
+          "y": 28
+        },
+        {
+          "x": 90,
+          "y": 59
+        },
+        {
+          "x": 89,
+          "y": 58
+        },
+        {
+          "x": 113,
+          "y": 34
+        },
+        {
+          "x": 111,
+          "y": 34
+        },
+        {
+          "x": 88,
+          "y": 57
+        },
+        {
+          "x": 87,
+          "y": 56
+        },
+        {
+          "x": 108,
+          "y": 35
+        },
+        {
+          "x": 106,
+          "y": 35
+        },
+        {
+          "x": 86,
+          "y": 55
+        },
+        {
+          "x": 85,
+          "y": 54
+        },
+        {
+          "x": 103,
+          "y": 36
+        },
+        {
+          "x": 101,
+          "y": 36
+        },
+        {
+          "x": 84,
+          "y": 53
+        },
+        {
+          "x": 83,
+          "y": 52
+        },
+        {
+          "x": 101,
+          "y": 34
+        },
+        {
+          "x": 99,
+          "y": 34
+        },
+        {
+          "x": 82,
+          "y": 51
+        },
+        {
+          "x": 81,
+          "y": 50
+        },
+        {
+          "x": 94,
+          "y": 37
+        },
+        {
+          "x": 92,
+          "y": 37
+        },
+        {
+          "x": 80,
+          "y": 49
+        },
+        {
+          "x": 79,
+          "y": 48
+        },
+        {
+          "x": 90,
+          "y": 37
+        },
+        {
+          "x": 88,
+          "y": 37
+        },
+        {
+          "x": 78,
+          "y": 47
+        },
+        {
+          "x": 77,
+          "y": 46
+        },
+        {
+          "x": 85,
+          "y": 38
+        },
+        {
+          "x": 83,
+          "y": 37
+        },
+        {
+          "x": 79,
+          "y": 38
+        },
+        {
+          "x": 80,
+          "y": 41
+        },
+        {
+          "x": 64,
+          "y": 57
+        },
+        {
+          "x": 66,
+          "y": 57
+        },
+        {
+          "x": 75,
+          "y": 49
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 70,
+            "y": 52
+          }
+        },
+        {
+          "position": {
+            "x": 59,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 60,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 71,
+            "y": 53
+          }
+        },
+        {
+          "position": {
+            "x": 72,
+            "y": 52
+          }
+        },
+        {
+          "position": {
+            "x": 73,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 73,
+            "y": 51
+          }
+        },
+        {
+          "position": {
+            "x": 74,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 75,
+            "y": 49
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 92,
+          "y": 61
+        },
+        {
+          "x": 117,
+          "y": 36
+        },
+        {
+          "x": 119,
+          "y": 36
+        },
+        {
+          "x": 94,
+          "y": 61
+        },
+        {
+          "x": 94,
+          "y": 62
+        },
+        {
+          "x": 95,
+          "y": 63
+        },
+        {
+          "x": 95,
+          "y": 63
+        },
+        {
+          "x": 95,
+          "y": 62
+        },
+        {
+          "x": 120,
+          "y": 37
+        },
+        {
+          "x": 122,
+          "y": 37
+        },
+        {
+          "x": 96,
+          "y": 63
+        },
+        {
+          "x": 98,
+          "y": 63
+        },
+        {
+          "x": 124,
+          "y": 37
+        },
+        {
+          "x": 124,
+          "y": 39
+        },
+        {
+          "x": 159,
+          "y": 74
+        },
+        {
+          "x": 159,
+          "y": 72
+        },
+        {
+          "x": 123,
+          "y": 36
+        },
+        {
+          "x": 126,
+          "y": 36
+        },
+        {
+          "x": 127,
+          "y": 39
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 128,
+          "y": 39
+        },
+        {
+          "x": 159,
+          "y": 70
+        },
+        {
+          "x": 159,
+          "y": 67
+        },
+        {
+          "x": 159,
+          "y": 67
+        },
+        {
+          "x": 159,
+          "y": 68
+        },
+        {
+          "x": 123,
+          "y": 32
+        },
+        {
+          "x": 125,
+          "y": 32
+        },
+        {
+          "x": 159,
+          "y": 66
+        },
+        {
+          "x": 159,
+          "y": 64
+        },
+        {
+          "x": 129,
+          "y": 34
+        },
+        {
+          "x": 131,
+          "y": 34
+        },
+        {
+          "x": 159,
+          "y": 62
+        },
+        {
+          "x": 159,
+          "y": 60
+        },
+        {
+          "x": 132,
+          "y": 33
+        },
+        {
+          "x": 134,
+          "y": 33
+        },
+        {
+          "x": 159,
+          "y": 58
+        },
+        {
+          "x": 159,
+          "y": 56
+        },
+        {
+          "x": 136,
+          "y": 33
+        },
+        {
+          "x": 138,
+          "y": 33
+        },
+        {
+          "x": 159,
+          "y": 54
+        },
+        {
+          "x": 159,
+          "y": 51
+        },
+        {
+          "x": 159,
+          "y": 52
+        },
+        {
+          "x": 133,
+          "y": 27
+        },
+        {
+          "x": 135,
+          "y": 27
+        },
+        {
+          "x": 159,
+          "y": 50
+        },
+        {
+          "x": 159,
+          "y": 48
+        },
+        {
+          "x": 148,
+          "y": 37
+        },
+        {
+          "x": 150,
+          "y": 37
+        },
+        {
+          "x": 159,
+          "y": 46
+        },
+        {
+          "x": 159,
+          "y": 44
+        },
+        {
+          "x": 154,
+          "y": 39
+        },
+        {
+          "x": 155,
+          "y": 39
+        },
+        {
+          "x": 159,
+          "y": 41
+        },
+        {
+          "x": 159,
+          "y": 43
+        },
+        {
+          "x": 159,
+          "y": 9
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 73,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 71,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 69,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 67,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 65,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 62,
+            "y": 43
+          }
+        },
+        {
+          "position": {
+            "x": 60,
+            "y": 43
+          }
+        },
+        {
+          "position": {
+            "x": 58,
+            "y": 43
+          }
+        },
+        {
+          "position": {
+            "x": 80,
+            "y": 41
+          }
+        },
+        {
+          "position": {
+            "x": 82,
+            "y": 41
+          }
+        },
+        {
+          "position": {
+            "x": 84,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 84,
+            "y": 41
+          }
+        },
+        {
+          "position": {
+            "x": 86,
+            "y": 41
+          }
+        },
+        {
+          "position": {
+            "x": 89,
+            "y": 40
+          }
+        },
+        {
+          "position": {
+            "x": 91,
+            "y": 40
+          }
+        },
+        {
+          "position": {
+            "x": 93,
+            "y": 40
+          }
+        },
+        {
+          "position": {
+            "x": 95,
+            "y": 40
+          }
+        },
+        {
+          "position": {
+            "x": 97,
+            "y": 40
+          }
+        },
+        {
+          "position": {
+            "x": 99,
+            "y": 40
+          }
+        },
+        {
+          "position": {
+            "x": 101,
+            "y": 40
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 4
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 4
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 102,
+          "y": 40
+        },
+        {
+          "x": 88,
+          "y": 40
+        },
+        {
+          "x": 87,
+          "y": 42
+        },
+        {
+          "x": 87,
+          "y": 41
+        },
+        {
+          "x": 76,
+          "y": 41
+        },
+        {
+          "x": 75,
+          "y": 42
+        },
+        {
+          "x": 64,
+          "y": 42
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 102,
+            "y": 40
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 101,
+          "y": 40
+        },
+        {
+          "x": 88,
+          "y": 40
+        },
+        {
+          "x": 87,
+          "y": 41
+        },
+        {
+          "x": 76,
+          "y": 41
+        },
+        {
+          "x": 75,
+          "y": 43
+        },
+        {
+          "x": 75,
+          "y": 42
+        },
+        {
+          "x": 64,
+          "y": 42
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 4
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 123,
+          "y": 40
+        },
+        {
+          "x": 159,
+          "y": 76
+        },
+        {
+          "x": 156,
+          "y": 76
+        },
+        {
+          "x": 156,
+          "y": 75
+        },
+        {
+          "x": 122,
+          "y": 41
+        },
+        {
+          "x": 121,
+          "y": 42
+        },
+        {
+          "x": 125,
+          "y": 46
+        },
+        {
+          "x": 124,
+          "y": 47
+        },
+        {
+          "x": 120,
+          "y": 43
+        },
+        {
+          "x": 118,
+          "y": 45
+        },
+        {
+          "x": 120,
+          "y": 46
+        },
+        {
+          "x": 120,
+          "y": 45
+        },
+        {
+          "x": 122,
+          "y": 48
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 154,
+          "y": 75
+        },
+        {
+          "x": 128,
+          "y": 49
+        },
+        {
+          "x": 129,
+          "y": 50
+        },
+        {
+          "x": 128,
+          "y": 51
+        },
+        {
+          "x": 152,
+          "y": 75
+        },
+        {
+          "x": 150,
+          "y": 75
+        },
+        {
+          "x": 128,
+          "y": 53
+        },
+        {
+          "x": 127,
+          "y": 55
+        },
+        {
+          "x": 127,
+          "y": 54
+        },
+        {
+          "x": 147,
+          "y": 74
+        },
+        {
+          "x": 146,
+          "y": 75
+        },
+        {
+          "x": 127,
+          "y": 56
+        },
+        {
+          "x": 126,
+          "y": 57
+        },
+        {
+          "x": 127,
+          "y": 58
+        },
+        {
+          "x": 134,
+          "y": 65
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 85,
+          "y": 60
+        },
+        {
+          "x": 69,
+          "y": 44
+        },
+        {
+          "x": 68,
+          "y": 45
+        },
+        {
+          "x": 82,
+          "y": 59
+        },
+        {
+          "x": 81,
+          "y": 58
+        },
+        {
+          "x": 80,
+          "y": 59
+        },
+        {
+          "x": 71,
+          "y": 50
+        },
+        {
+          "x": 70,
+          "y": 51
+        },
+        {
+          "x": 77,
+          "y": 58
+        },
+        {
+          "x": 76,
+          "y": 59
+        },
+        {
+          "x": 70,
+          "y": 53
+        },
+        {
+          "x": 69,
+          "y": 54
+        },
+        {
+          "x": 73,
+          "y": 58
+        },
+        {
+          "x": 71,
+          "y": 58
+        },
+        {
+          "x": 68,
+          "y": 55
+        },
+        {
+          "x": 67,
+          "y": 56
+        },
+        {
+          "x": 68,
+          "y": 58
+        },
+        {
+          "x": 49,
+          "y": 37
+        },
+        {
+          "x": 51,
+          "y": 37
+        },
+        {
+          "x": 59,
+          "y": 47
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 57,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 58,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 59,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 63,
+            "y": 53
+          }
+        },
+        {
+          "position": {
+            "x": 64,
+            "y": 54
+          }
+        },
+        {
+          "position": {
+            "x": 65,
+            "y": 55
+          }
+        },
+        {
+          "position": {
+            "x": 65,
+            "y": 56
+          }
+        },
+        {
+          "position": {
+            "x": 66,
+            "y": 56
+          }
+        },
+        {
+          "position": {
+            "x": 66,
+            "y": 55
+          }
+        },
+        {
+          "position": {
+            "x": 75,
+            "y": 43
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 39
+          }
+        },
+        {
+          "position": {
+            "x": 102,
+            "y": 40
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 92,
+          "y": 40
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 101,
+          "y": 40
+        },
+        {
+          "x": 88,
+          "y": 40
+        },
+        {
+          "x": 87,
+          "y": 41
+        },
+        {
+          "x": 76,
+          "y": 41
+        },
+        {
+          "x": 75,
+          "y": 42
+        },
+        {
+          "x": 64,
+          "y": 42
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 87,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 89,
+            "y": 40
+          }
+        },
+        {
+          "position": {
+            "x": 91,
+            "y": 40
+          }
+        },
+        {
+          "position": {
+            "x": 93,
+            "y": 40
+          }
+        },
+        {
+          "position": {
+            "x": 95,
+            "y": 40
+          }
+        },
+        {
+          "position": {
+            "x": 97,
+            "y": 40
+          }
+        },
+        {
+          "position": {
+            "x": 99,
+            "y": 40
+          }
+        },
+        {
+          "position": {
+            "x": 101,
+            "y": 40
+          }
+        },
+        {
+          "position": {
+            "x": 86,
+            "y": 41
+          }
+        },
+        {
+          "position": {
+            "x": 84,
+            "y": 41
+          }
+        },
+        {
+          "position": {
+            "x": 82,
+            "y": 41
+          }
+        },
+        {
+          "position": {
+            "x": 80,
+            "y": 41
+          }
+        },
+        {
+          "position": {
+            "x": 78,
+            "y": 41
+          }
+        },
+        {
+          "position": {
+            "x": 77,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 76,
+            "y": 41
+          }
+        },
+        {
+          "position": {
+            "x": 76,
+            "y": 44
+          }
+        },
+        {
+          "position": {
+            "x": 76,
+            "y": 43
+          }
+        },
+        {
+          "position": {
+            "x": 75,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 73,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 71,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 69,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 67,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 65,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 117,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 115,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 65,
+            "y": 54
+          }
+        },
+        {
+          "position": {
+            "x": 66,
+            "y": 55
+          }
+        },
+        {
+          "position": {
+            "x": 64,
+            "y": 55
+          }
+        },
+        {
+          "position": {
+            "x": 65,
+            "y": 56
+          }
+        },
+        {
+          "position": {
+            "x": 63,
+            "y": 54
+          }
+        },
+        {
+          "position": {
+            "x": 62,
+            "y": 55
+          }
+        },
+        {
+          "position": {
+            "x": 61,
+            "y": 54
+          }
+        },
+        {
+          "position": {
+            "x": 60,
+            "y": 53
+          }
+        },
+        {
+          "position": {
+            "x": 58,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 58,
+            "y": 43
+          }
+        },
+        {
+          "position": {
+            "x": 60,
+            "y": 43
+          }
+        },
+        {
+          "position": {
+            "x": 62,
+            "y": 43
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 76,
+            "y": 44
+          }
+        },
+        {
+          "position": {
+            "x": 120,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 120,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 121,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 122,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 54
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 54
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 55
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 120,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 54
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 159,
+            "y": 73
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 69
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 67
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 64
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 66
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 65
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 65
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 61
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 58
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 57
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 51
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 53
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 43
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 41
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 159,
+            "y": 67
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 66
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 64
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 58
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 43
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 42
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 159,
+            "y": 66
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 67
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 44
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 42
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 44
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 43
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 159,
+            "y": 66
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 44
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 42
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 59,
+          "y": 54
+        },
+        {
+          "x": 46,
+          "y": 41
+        },
+        {
+          "x": 48,
+          "y": 41
+        },
+        {
+          "x": 60,
+          "y": 53
+        },
+        {
+          "x": 61,
+          "y": 52
+        },
+        {
+          "x": 48,
+          "y": 39
+        },
+        {
+          "x": 47,
+          "y": 44
+        },
+        {
+          "x": 55,
+          "y": 52
+        },
+        {
+          "x": 54,
+          "y": 51
+        },
+        {
+          "x": 52,
+          "y": 52
+        },
+        {
+          "x": 52,
+          "y": 51
+        },
+        {
+          "x": 41,
+          "y": 40
+        },
+        {
+          "x": 43,
+          "y": 44
+        },
+        {
+          "x": 49,
+          "y": 50
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 43,
+          "y": 44
+        },
+        {
+          "x": 39,
+          "y": 48
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 45,
+          "y": 44
+        },
+        {
+          "x": 41,
+          "y": 48
+        },
+        {
+          "x": 42,
+          "y": 49
+        },
+        {
+          "x": 45,
+          "y": 46
+        },
+        {
+          "x": 46,
+          "y": 48
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 46,
+            "y": 48
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 45,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 46,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 41,
+            "y": 44
+          }
+        },
+        {
+          "position": {
+            "x": 40,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 40,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 39,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 38,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 37,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 36,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 38,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 36,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 35,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 34,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 33,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 32,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 31,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 30,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 29,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 101,
+            "y": 62
+          }
+        },
+        {
+          "position": {
+            "x": 100,
+            "y": 63
+          }
+        },
+        {
+          "position": {
+            "x": 102,
+            "y": 61
+          }
+        },
+        {
+          "position": {
+            "x": 103,
+            "y": 60
+          }
+        },
+        {
+          "position": {
+            "x": 104,
+            "y": 59
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 104,
+          "y": 59
+        },
+        {
+          "x": 115,
+          "y": 48
+        },
+        {
+          "x": 114,
+          "y": 49
+        },
+        {
+          "x": 113,
+          "y": 50
+        },
+        {
+          "x": 114,
+          "y": 51
+        },
+        {
+          "x": 102,
+          "y": 63
+        },
+        {
+          "x": 103,
+          "y": 64
+        },
+        {
+          "x": 114,
+          "y": 53
+        },
+        {
+          "x": 113,
+          "y": 54
+        },
+        {
+          "x": 112,
+          "y": 55
+        },
+        {
+          "x": 113,
+          "y": 56
+        },
+        {
+          "x": 105,
+          "y": 64
+        },
+        {
+          "x": 106,
+          "y": 65
+        },
+        {
+          "x": 113,
+          "y": 58
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 109,
+            "y": 64
+          }
+        },
+        {
+          "position": {
+            "x": 110,
+            "y": 63
+          }
+        },
+        {
+          "position": {
+            "x": 108,
+            "y": 65
+          }
+        },
+        {
+          "position": {
+            "x": 111,
+            "y": 62
+          }
+        },
+        {
+          "position": {
+            "x": 112,
+            "y": 61
+          }
+        },
+        {
+          "position": {
+            "x": 113,
+            "y": 60
+          }
+        },
+        {
+          "position": {
+            "x": 114,
+            "y": 59
+          }
+        },
+        {
+          "position": {
+            "x": 113,
+            "y": 62
+          }
+        },
+        {
+          "position": {
+            "x": 114,
+            "y": 61
+          }
+        },
+        {
+          "position": {
+            "x": 115,
+            "y": 60
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 61
+          }
+        },
+        {
+          "position": {
+            "x": 117,
+            "y": 60
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 59
+          }
+        },
+        {
+          "position": {
+            "x": 122,
+            "y": 47
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 1
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 116,
+            "y": 54
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 53
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 52
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 51
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 117,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 117,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 117,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 117,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 115,
+            "y": 55
+          }
+        },
+        {
+          "position": {
+            "x": 115,
+            "y": 57
+          }
+        },
+        {
+          "position": {
+            "x": 115,
+            "y": 56
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 58
+          }
+        },
+        {
+          "position": {
+            "x": 117,
+            "y": 58
+          }
+        },
+        {
+          "position": {
+            "x": 118,
+            "y": 59
+          }
+        },
+        {
+          "position": {
+            "x": 119,
+            "y": 59
+          }
+        },
+        {
+          "position": {
+            "x": 120,
+            "y": 59
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 51
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 53
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 52
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 55
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 54
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 57
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 59
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 57
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 56
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 59
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 59
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 58
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 125,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 124,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 123,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 122,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 121,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 120,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 119,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 118,
+            "y": 47
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 115,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 115,
+            "y": 52
+          }
+        },
+        {
+          "position": {
+            "x": 114,
+            "y": 55
+          }
+        },
+        {
+          "position": {
+            "x": 114,
+            "y": 57
+          }
+        },
+        {
+          "position": {
+            "x": 115,
+            "y": 58
+          }
+        },
+        {
+          "position": {
+            "x": 120,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 122,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 121,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 123,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 128,
+            "y": 61
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 60
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 117,
+          "y": 155
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 67,
+            "y": 138
+          }
+        },
+        {
+          "position": {
+            "x": 66,
+            "y": 138
+          }
+        },
+        {
+          "position": {
+            "x": 65,
+            "y": 138
+          }
+        },
+        {
+          "position": {
+            "x": 64,
+            "y": 138
+          }
+        },
+        {
+          "position": {
+            "x": 63,
+            "y": 138
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 70,
+          "y": 140
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 100,
+          "y": 115
+        },
+        {
+          "x": 95,
+          "y": 112
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 15
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 95,
+            "y": 112
+          }
+        },
+        {
+          "position": {
+            "x": 96,
+            "y": 114
+          }
+        },
+        {
+          "position": {
+            "x": 96,
+            "y": 113
+          }
+        },
+        {
+          "position": {
+            "x": 97,
+            "y": 113
+          }
+        },
+        {
+          "position": {
+            "x": 97,
+            "y": 113
+          }
+        },
+        {
+          "position": {
+            "x": 98,
+            "y": 114
+          }
+        },
+        {
+          "position": {
+            "x": 98,
+            "y": 114
+          }
+        },
+        {
+          "position": {
+            "x": 99,
+            "y": 114
+          }
+        },
+        {
+          "position": {
+            "x": 99,
+            "y": 114
+          }
+        },
+        {
+          "position": {
+            "x": 100,
+            "y": 115
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 100,
+          "y": 115
+        },
+        {
+          "x": 94,
+          "y": 113
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 109,
+          "y": 136
+        },
+        {
+          "x": 159,
+          "y": 154
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 130,
+          "y": 148
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 109,
+          "y": 134
+        },
+        {
+          "x": 159,
+          "y": 152
+        },
+        {
+          "x": 159,
+          "y": 153
+        },
+        {
+          "x": 109,
+          "y": 135
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 111,
+            "y": 134
+          }
+        },
+        {
+          "position": {
+            "x": 114,
+            "y": 135
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 136
+          }
+        },
+        {
+          "position": {
+            "x": 117,
+            "y": 136
+          }
+        },
+        {
+          "position": {
+            "x": 120,
+            "y": 137
+          }
+        },
+        {
+          "position": {
+            "x": 119,
+            "y": 137
+          }
+        },
+        {
+          "position": {
+            "x": 122,
+            "y": 138
+          }
+        },
+        {
+          "position": {
+            "x": 125,
+            "y": 139
+          }
+        },
+        {
+          "position": {
+            "x": 128,
+            "y": 140
+          }
+        },
+        {
+          "position": {
+            "x": 130,
+            "y": 141
+          }
+        },
+        {
+          "position": {
+            "x": 131,
+            "y": 141
+          }
+        },
+        {
+          "position": {
+            "x": 133,
+            "y": 142
+          }
+        },
+        {
+          "position": {
+            "x": 134,
+            "y": 142
+          }
+        },
+        {
+          "position": {
+            "x": 136,
+            "y": 142
+          }
+        },
+        {
+          "position": {
+            "x": 136,
+            "y": 143
+          }
+        },
+        {
+          "position": {
+            "x": 137,
+            "y": 143
+          }
+        },
+        {
+          "position": {
+            "x": 139,
+            "y": 144
+          }
+        },
+        {
+          "position": {
+            "x": 140,
+            "y": 144
+          }
+        },
+        {
+          "position": {
+            "x": 141,
+            "y": 145
+          }
+        },
+        {
+          "position": {
+            "x": 142,
+            "y": 145
+          }
+        },
+        {
+          "position": {
+            "x": 143,
+            "y": 145
+          }
+        },
+        {
+          "position": {
+            "x": 144,
+            "y": 146
+          }
+        },
+        {
+          "position": {
+            "x": 146,
+            "y": 147
+          }
+        },
+        {
+          "position": {
+            "x": 146,
+            "y": 146
+          }
+        },
+        {
+          "position": {
+            "x": 145,
+            "y": 146
+          }
+        },
+        {
+          "position": {
+            "x": 147,
+            "y": 147
+          }
+        },
+        {
+          "position": {
+            "x": 148,
+            "y": 147
+          }
+        },
+        {
+          "position": {
+            "x": 150,
+            "y": 148
+          }
+        },
+        {
+          "position": {
+            "x": 151,
+            "y": 148
+          }
+        },
+        {
+          "position": {
+            "x": 153,
+            "y": 149
+          }
+        },
+        {
+          "position": {
+            "x": 154,
+            "y": 149
+          }
+        },
+        {
+          "position": {
+            "x": 155,
+            "y": 149
+          }
+        },
+        {
+          "position": {
+            "x": 156,
+            "y": 150
+          }
+        },
+        {
+          "position": {
+            "x": 155,
+            "y": 150
+          }
+        },
+        {
+          "position": {
+            "x": 157,
+            "y": 150
+          }
+        },
+        {
+          "position": {
+            "x": 158,
+            "y": 151
+          }
+        },
+        {
+          "position": {
+            "x": 159,
+            "y": 151
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 107,
+          "y": 159
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 88,
+          "y": 149
+        },
+        {
+          "x": 128,
+          "y": 167
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 60,
+          "y": 140
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 51,
+          "y": 134
+        },
+        {
+          "x": 70,
+          "y": 144
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePictureDraw"
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 70,
+          "y": 134
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 69,
+          "y": 134
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 60,
+          "y": 128
+        },
+        {
+          "x": 77,
+          "y": 134
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 78,
+          "y": 129
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 71,
+          "y": 122
+        },
+        {
+          "x": 83,
+          "y": 126
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 72,
+          "y": 121
+        },
+        {
+          "x": 84,
+          "y": 124
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 73,
+            "y": 122
+          }
+        },
+        {
+          "position": {
+            "x": 77,
+            "y": 123
+          }
+        },
+        {
+          "position": {
+            "x": 76,
+            "y": 123
+          }
+        },
+        {
+          "position": {
+            "x": 79,
+            "y": 124
+          }
+        },
+        {
+          "position": {
+            "x": 80,
+            "y": 124
+          }
+        },
+        {
+          "position": {
+            "x": 81,
+            "y": 124
+          }
+        },
+        {
+          "position": {
+            "x": 82,
+            "y": 125
+          }
+        },
+        {
+          "position": {
+            "x": 83,
+            "y": 125
+          }
+        },
+        {
+          "position": {
+            "x": 84,
+            "y": 125
+          }
+        },
+        {
+          "position": {
+            "x": 84,
+            "y": 124
+          }
+        },
+        {
+          "position": {
+            "x": 85,
+            "y": 124
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 6,
+          "y": 108
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 9,
+          "y": 108
+        },
+        {
+          "x": 0,
+          "y": 104
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 12,
+          "y": 103
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 12,
+          "y": 103
+        },
+        {
+          "x": 0,
+          "y": 98
+        },
+        {
+          "x": 0,
+          "y": 99
+        },
+        {
+          "x": 12,
+          "y": 104
+        }
+      ]
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 6,
+            "y": 101
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 9,
+          "y": 78
+        },
+        {
+          "x": 9,
+          "y": 99
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 23,
+          "y": 46
+        },
+        {
+          "x": 27,
+          "y": 46
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 0,
+          "y": 47
+        },
+        {
+          "x": 11,
+          "y": 46
+        },
+        {
+          "x": 24,
+          "y": 45
+        },
+        {
+          "x": 26,
+          "y": 45
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 26,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 26,
+            "y": 45
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 26,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 25,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 24,
+            "y": 45
+          }
+        },
+        {
+          "position": {
+            "x": 27,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 26,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 23,
+            "y": 45
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 17,
+          "y": 45
+        },
+        {
+          "x": 11,
+          "y": 45
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 78,
+          "y": 92
+        },
+        {
+          "x": 50,
+          "y": 80
+        },
+        {
+          "x": 16,
+          "y": 69
+        },
+        {
+          "x": 127,
+          "y": 97
+        },
+        {
+          "x": 17,
+          "y": 101
+        },
+        {
+          "x": 87,
+          "y": 134
+        },
+        {
+          "x": 144,
+          "y": 109
+        },
+        {
+          "x": 28,
+          "y": 80
+        },
+        {
+          "x": 0,
+          "y": 71
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 62,
+          "y": 121
+        },
+        {
+          "x": 34,
+          "y": 98
+        },
+        {
+          "x": 6,
+          "y": 88
+        },
+        {
+          "x": 24,
+          "y": 71
+        },
+        {
+          "x": 107,
+          "y": 87
+        },
+        {
+          "x": 118,
+          "y": 116
+        },
+        {
+          "x": 129,
+          "y": 126
+        },
+        {
+          "x": 87,
+          "y": 108
+        },
+        {
+          "x": 51,
+          "y": 95
+        },
+        {
+          "x": 21,
+          "y": 88
+        },
+        {
+          "x": 88,
+          "y": 95
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 3
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 6,
+          "y": 134
+        },
+        {
+          "x": 6,
+          "y": 141
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 14
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 15
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 6,
+          "y": 134
+        },
+        {
+          "x": 6,
+          "y": 142
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 6,
+          "y": 134
+        },
+        {
+          "x": 6,
+          "y": 143
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 4
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 4
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 4
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 2,
+          "y": 152
+        },
+        {
+          "x": 2,
+          "y": 134
+        },
+        {
+          "x": 8,
+          "y": 132
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 3,
+          "y": 152
+        },
+        {
+          "x": 8,
+          "y": 150
+        },
+        {
+          "x": 8,
+          "y": 133
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 10,
+          "y": 138
+        },
+        {
+          "x": 10,
+          "y": 131
+        },
+        {
+          "x": 21,
+          "y": 127
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 10,
+          "y": 147
+        },
+        {
+          "x": 10,
+          "y": 141
+        },
+        {
+          "x": 21,
+          "y": 137
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 11,
+          "y": 138
+        },
+        {
+          "x": 21,
+          "y": 134
+        },
+        {
+          "x": 21,
+          "y": 128
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 10,
+            "y": 148
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 11,
+          "y": 148
+        },
+        {
+          "x": 21,
+          "y": 144
+        },
+        {
+          "x": 21,
+          "y": 138
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 48,
+          "y": 140
+        },
+        {
+          "x": 48,
+          "y": 132
+        },
+        {
+          "x": 49,
+          "y": 131
+        },
+        {
+          "x": 74,
+          "y": 115
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 49,
+            "y": 140
+          }
+        },
+        {
+          "position": {
+            "x": 50,
+            "y": 140
+          }
+        },
+        {
+          "position": {
+            "x": 51,
+            "y": 139
+          }
+        },
+        {
+          "position": {
+            "x": 57,
+            "y": 134
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 57,
+            "y": 134
+          }
+        }
+      ]
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 59,
+            "y": 135
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 59,
+            "y": 136
+          }
+        },
+        {
+          "position": {
+            "x": 60,
+            "y": 136
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 60,
+            "y": 136
+          }
+        },
+        {
+          "position": {
+            "x": 59,
+            "y": 136
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 59,
+            "y": 135
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 75,
+            "y": 115
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 75,
+            "y": 116
+          }
+        },
+        {
+          "position": {
+            "x": 75,
+            "y": 117
+          }
+        },
+        {
+          "position": {
+            "x": 75,
+            "y": 118
+          }
+        },
+        {
+          "position": {
+            "x": 75,
+            "y": 120
+          }
+        },
+        {
+          "position": {
+            "x": 75,
+            "y": 118
+          }
+        },
+        {
+          "position": {
+            "x": 75,
+            "y": 119
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 24,
+          "y": 121
+        },
+        {
+          "x": 24,
+          "y": 150
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 25,
+          "y": 121
+        },
+        {
+          "x": 25,
+          "y": 150
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 24,
+          "y": 150
+        },
+        {
+          "x": 24,
+          "y": 121
+        },
+        {
+          "x": 25,
+          "y": 121
+        },
+        {
+          "x": 25,
+          "y": 150
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 25,
+          "y": 147
+        },
+        {
+          "x": 25,
+          "y": 124
+        },
+        {
+          "x": 40,
+          "y": 119
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 26,
+          "y": 147
+        },
+        {
+          "x": 41,
+          "y": 141
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 40,
+          "y": 140
+        },
+        {
+          "x": 40,
+          "y": 120
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 41,
+            "y": 141
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 48,
+          "y": 122
+        },
+        {
+          "x": 48,
+          "y": 116
+        },
+        {
+          "x": 73,
+          "y": 106
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 49,
+          "y": 122
+        },
+        {
+          "x": 73,
+          "y": 112
+        },
+        {
+          "x": 73,
+          "y": 107
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 43,
+          "y": 123
+        },
+        {
+          "x": 43,
+          "y": 119
+        },
+        {
+          "x": 45,
+          "y": 118
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 44,
+          "y": 123
+        },
+        {
+          "x": 45,
+          "y": 122
+        },
+        {
+          "x": 45,
+          "y": 119
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 43,
+            "y": 127
+          }
+        },
+        {
+          "position": {
+            "x": 43,
+            "y": 126
+          }
+        },
+        {
+          "position": {
+            "x": 43,
+            "y": 128
+          }
+        },
+        {
+          "position": {
+            "x": 43,
+            "y": 129
+          }
+        },
+        {
+          "position": {
+            "x": 43,
+            "y": 130
+          }
+        },
+        {
+          "position": {
+            "x": 43,
+            "y": 131
+          }
+        },
+        {
+          "position": {
+            "x": 44,
+            "y": 126
+          }
+        },
+        {
+          "position": {
+            "x": 45,
+            "y": 126
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 43,
+            "y": 127
+          }
+        },
+        {
+          "position": {
+            "x": 43,
+            "y": 126
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 43,
+            "y": 126
+          }
+        },
+        {
+          "position": {
+            "x": 43,
+            "y": 126
+          }
+        },
+        {
+          "position": {
+            "x": 43,
+            "y": 127
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 43,
+            "y": 126
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 44,
+            "y": 131
+          }
+        },
+        {
+          "position": {
+            "x": 45,
+            "y": 130
+          }
+        },
+        {
+          "position": {
+            "x": 45,
+            "y": 128
+          }
+        },
+        {
+          "position": {
+            "x": 45,
+            "y": 127
+          }
+        },
+        {
+          "position": {
+            "x": 45,
+            "y": 129
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 44,
+            "y": 133
+          }
+        },
+        {
+          "position": {
+            "x": 45,
+            "y": 133
+          }
+        },
+        {
+          "position": {
+            "x": 44,
+            "y": 134
+          }
+        },
+        {
+          "position": {
+            "x": 45,
+            "y": 134
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 44,
+            "y": 133
+          }
+        },
+        {
+          "position": {
+            "x": 45,
+            "y": 133
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 43,
+            "y": 135
+          }
+        },
+        {
+          "position": {
+            "x": 43,
+            "y": 136
+          }
+        },
+        {
+          "position": {
+            "x": 43,
+            "y": 137
+          }
+        },
+        {
+          "position": {
+            "x": 43,
+            "y": 138
+          }
+        },
+        {
+          "position": {
+            "x": 43,
+            "y": 139
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 44,
+            "y": 138
+          }
+        },
+        {
+          "position": {
+            "x": 44,
+            "y": 139
+          }
+        },
+        {
+          "position": {
+            "x": 45,
+            "y": 137
+          }
+        },
+        {
+          "position": {
+            "x": 45,
+            "y": 138
+          }
+        },
+        {
+          "position": {
+            "x": 45,
+            "y": 135
+          }
+        },
+        {
+          "position": {
+            "x": 45,
+            "y": 136
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 44,
+            "y": 138
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 15
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 40,
+          "y": 106
+        },
+        {
+          "x": 47,
+          "y": 109
+        },
+        {
+          "x": 58,
+          "y": 105
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 15
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 15
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 40,
+          "y": 106
+        },
+        {
+          "x": 56,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 48,
+          "y": 109
+        },
+        {
+          "x": 49,
+          "y": 108
+        },
+        {
+          "x": 50,
+          "y": 108
+        },
+        {
+          "x": 51,
+          "y": 109
+        },
+        {
+          "x": 51,
+          "y": 108
+        },
+        {
+          "x": 53,
+          "y": 107
+        },
+        {
+          "x": 55,
+          "y": 106
+        },
+        {
+          "x": 56,
+          "y": 106
+        },
+        {
+          "x": 57,
+          "y": 105
+        },
+        {
+          "x": 58,
+          "y": 105
+        },
+        {
+          "x": 60,
+          "y": 104
+        },
+        {
+          "x": 56,
+          "y": 101
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 25,
+            "y": 130
+          }
+        },
+        {
+          "position": {
+            "x": 26,
+            "y": 131
+          }
+        },
+        {
+          "position": {
+            "x": 27,
+            "y": 132
+          }
+        },
+        {
+          "position": {
+            "x": 28,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 28,
+            "y": 132
+          }
+        },
+        {
+          "position": {
+            "x": 27,
+            "y": 132
+          }
+        },
+        {
+          "position": {
+            "x": 26,
+            "y": 131
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 25,
+            "y": 130
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 51,
+            "y": 109
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 104,
+          "y": 145
+        },
+        {
+          "x": 104,
+          "y": 136
+        },
+        {
+          "x": 106,
+          "y": 131
+        },
+        {
+          "x": 112,
+          "y": 128
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 105,
+          "y": 146
+        },
+        {
+          "x": 107,
+          "y": 147
+        },
+        {
+          "x": 111,
+          "y": 145
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 113,
+          "y": 129
+        },
+        {
+          "x": 113,
+          "y": 133
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 84,
+          "y": 155
+        },
+        {
+          "x": 84,
+          "y": 151
+        },
+        {
+          "x": 87,
+          "y": 146
+        },
+        {
+          "x": 90,
+          "y": 145
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 85,
+          "y": 156
+        },
+        {
+          "x": 86,
+          "y": 157
+        },
+        {
+          "x": 90,
+          "y": 155
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 91,
+          "y": 146
+        },
+        {
+          "x": 91,
+          "y": 148
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 93,
+          "y": 148
+        },
+        {
+          "x": 93,
+          "y": 145
+        },
+        {
+          "x": 102,
+          "y": 136
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 102,
+          "y": 137
+        },
+        {
+          "x": 102,
+          "y": 146
+        },
+        {
+          "x": 94,
+          "y": 149
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 104,
+          "y": 127
+        },
+        {
+          "x": 104,
+          "y": 116
+        },
+        {
+          "x": 107,
+          "y": 114
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 105,
+          "y": 127
+        },
+        {
+          "x": 108,
+          "y": 125
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 108,
+            "y": 125
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 107,
+          "y": 125
+        },
+        {
+          "x": 107,
+          "y": 115
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 109,
+          "y": 125
+        },
+        {
+          "x": 109,
+          "y": 114
+        },
+        {
+          "x": 112,
+          "y": 112
+        },
+        {
+          "x": 112,
+          "y": 124
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 110,
+            "y": 125
+          }
+        },
+        {
+          "position": {
+            "x": 111,
+            "y": 124
+          }
+        },
+        {
+          "position": {
+            "x": 112,
+            "y": 124
+          }
+        },
+        {
+          "position": {
+            "x": 112,
+            "y": 123
+          }
+        },
+        {
+          "position": {
+            "x": 112,
+            "y": 122
+          }
+        },
+        {
+          "position": {
+            "x": 112,
+            "y": 121
+          }
+        },
+        {
+          "position": {
+            "x": 112,
+            "y": 120
+          }
+        },
+        {
+          "position": {
+            "x": 112,
+            "y": 119
+          }
+        },
+        {
+          "position": {
+            "x": 112,
+            "y": 117
+          }
+        },
+        {
+          "position": {
+            "x": 112,
+            "y": 118
+          }
+        },
+        {
+          "position": {
+            "x": 112,
+            "y": 116
+          }
+        },
+        {
+          "position": {
+            "x": 112,
+            "y": 115
+          }
+        },
+        {
+          "position": {
+            "x": 112,
+            "y": 114
+          }
+        },
+        {
+          "position": {
+            "x": 112,
+            "y": 113
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 112,
+            "y": 124
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 115,
+          "y": 134
+        },
+        {
+          "x": 115,
+          "y": 112
+        },
+        {
+          "x": 121,
+          "y": 109
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 121,
+          "y": 110
+        },
+        {
+          "x": 121,
+          "y": 136
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 91,
+          "y": 139
+        },
+        {
+          "x": 101,
+          "y": 119
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 92,
+          "y": 139
+        },
+        {
+          "x": 101,
+          "y": 130
+        },
+        {
+          "x": 101,
+          "y": 121
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 126,
+          "y": 138
+        },
+        {
+          "x": 126,
+          "y": 112
+        },
+        {
+          "x": 137,
+          "y": 115
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 137,
+          "y": 116
+        },
+        {
+          "x": 137,
+          "y": 141
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 140,
+          "y": 124
+        },
+        {
+          "x": 140,
+          "y": 116
+        },
+        {
+          "x": 154,
+          "y": 120
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 140,
+          "y": 136
+        },
+        {
+          "x": 140,
+          "y": 128
+        },
+        {
+          "x": 153,
+          "y": 131
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 141,
+          "y": 124
+        },
+        {
+          "x": 153,
+          "y": 127
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 141,
+          "y": 136
+        },
+        {
+          "x": 152,
+          "y": 139
+        },
+        {
+          "x": 153,
+          "y": 139
+        },
+        {
+          "x": 153,
+          "y": 132
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 154,
+          "y": 127
+        },
+        {
+          "x": 154,
+          "y": 121
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 140,
+            "y": 140
+          }
+        },
+        {
+          "position": {
+            "x": 140,
+            "y": 141
+          }
+        },
+        {
+          "position": {
+            "x": 140,
+            "y": 139
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 141,
+            "y": 139
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 141,
+            "y": 141
+          }
+        },
+        {
+          "position": {
+            "x": 142,
+            "y": 140
+          }
+        },
+        {
+          "position": {
+            "x": 142,
+            "y": 139
+          }
+        },
+        {
+          "position": {
+            "x": 142,
+            "y": 141
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 142,
+            "y": 140
+          }
+        },
+        {
+          "position": {
+            "x": 142,
+            "y": 139
+          }
+        },
+        {
+          "position": {
+            "x": 141,
+            "y": 139
+          }
+        },
+        {
+          "position": {
+            "x": 140,
+            "y": 139
+          }
+        },
+        {
+          "position": {
+            "x": 140,
+            "y": 140
+          }
+        },
+        {
+          "position": {
+            "x": 140,
+            "y": 141
+          }
+        },
+        {
+          "position": {
+            "x": 141,
+            "y": 141
+          }
+        },
+        {
+          "position": {
+            "x": 142,
+            "y": 141
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 157,
+          "y": 121
+        },
+        {
+          "x": 157,
+          "y": 149
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 157,
+          "y": 121
+        },
+        {
+          "x": 159,
+          "y": 121
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 159,
+            "y": 122
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 159,
+            "y": 121
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 153,
+            "y": 138
+          }
+        },
+        {
+          "position": {
+            "x": 153,
+            "y": 137
+          }
+        },
+        {
+          "position": {
+            "x": 153,
+            "y": 136
+          }
+        },
+        {
+          "position": {
+            "x": 153,
+            "y": 135
+          }
+        },
+        {
+          "position": {
+            "x": 154,
+            "y": 133
+          }
+        },
+        {
+          "position": {
+            "x": 153,
+            "y": 133
+          }
+        },
+        {
+          "position": {
+            "x": 153,
+            "y": 134
+          }
+        },
+        {
+          "position": {
+            "x": 153,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 154,
+            "y": 132
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 154,
+            "y": 133
+          }
+        },
+        {
+          "position": {
+            "x": 154,
+            "y": 134
+          }
+        },
+        {
+          "position": {
+            "x": 154,
+            "y": 135
+          }
+        },
+        {
+          "position": {
+            "x": 154,
+            "y": 136
+          }
+        },
+        {
+          "position": {
+            "x": 154,
+            "y": 137
+          }
+        },
+        {
+          "position": {
+            "x": 154,
+            "y": 138
+          }
+        },
+        {
+          "position": {
+            "x": 154,
+            "y": 139
+          }
+        },
+        {
+          "position": {
+            "x": 154,
+            "y": 140
+          }
+        },
+        {
+          "position": {
+            "x": 153,
+            "y": 140
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 153,
+            "y": 139
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 101,
+          "y": 119
+        },
+        {
+          "x": 101,
+          "y": 131
+        },
+        {
+          "x": 101,
+          "y": 130
+        },
+        {
+          "x": 91,
+          "y": 140
+        },
+        {
+          "x": 100,
+          "y": 121
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 104,
+          "y": 116
+        },
+        {
+          "x": 104,
+          "y": 127
+        },
+        {
+          "x": 112,
+          "y": 123
+        },
+        {
+          "x": 110,
+          "y": 126
+        },
+        {
+          "x": 110,
+          "y": 125
+        },
+        {
+          "x": 104,
+          "y": 127
+        },
+        {
+          "x": 107,
+          "y": 126
+        },
+        {
+          "x": 107,
+          "y": 114
+        },
+        {
+          "x": 105,
+          "y": 115
+        },
+        {
+          "x": 109,
+          "y": 113
+        },
+        {
+          "x": 109,
+          "y": 124
+        },
+        {
+          "x": 112,
+          "y": 122
+        },
+        {
+          "x": 112,
+          "y": 112
+        },
+        {
+          "x": 110,
+          "y": 113
+        },
+        {
+          "x": 115,
+          "y": 112
+        },
+        {
+          "x": 115,
+          "y": 123
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 115,
+          "y": 112
+        },
+        {
+          "x": 102,
+          "y": 118
+        },
+        {
+          "x": 102,
+          "y": 129
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 103,
+          "y": 129
+        },
+        {
+          "x": 115,
+          "y": 123
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 4
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 44,
+            "y": 121
+          }
+        },
+        {
+          "position": {
+            "x": 44,
+            "y": 129
+          }
+        },
+        {
+          "position": {
+            "x": 44,
+            "y": 136
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 12
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 44,
+            "y": 128
+          }
+        },
+        {
+          "position": {
+            "x": 44,
+            "y": 130
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 44,
+            "y": 130
+          }
+        },
+        {
+          "position": {
+            "x": 44,
+            "y": 128
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 15
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 82,
+          "y": 144
+        },
+        {
+          "x": 77,
+          "y": 140
+        },
+        {
+          "x": 68,
+          "y": 153
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 69,
+          "y": 153
+        },
+        {
+          "x": 75,
+          "y": 157
+        },
+        {
+          "x": 82,
+          "y": 145
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 15
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 80,
+          "y": 137
+        },
+        {
+          "x": 88,
+          "y": 125
+        },
+        {
+          "x": 91,
+          "y": 127
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 81,
+          "y": 137
+        },
+        {
+          "x": 84,
+          "y": 139
+        },
+        {
+          "x": 91,
+          "y": 128
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 15
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 155,
+          "y": 113
+        },
+        {
+          "x": 142,
+          "y": 109
+        },
+        {
+          "x": 150,
+          "y": 106
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 151,
+          "y": 106
+        },
+        {
+          "x": 158,
+          "y": 108
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 155,
+          "y": 113
+        },
+        {
+          "x": 142,
+          "y": 109
+        },
+        {
+          "x": 150,
+          "y": 106
+        },
+        {
+          "x": 153,
+          "y": 106
+        },
+        {
+          "x": 158,
+          "y": 108
+        },
+        {
+          "x": 153,
+          "y": 107
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 15
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 33,
+          "y": 105
+        },
+        {
+          "x": 33,
+          "y": 96
+        },
+        {
+          "x": 44,
+          "y": 91
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 44,
+          "y": 92
+        },
+        {
+          "x": 44,
+          "y": 101
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 0,
+          "y": 86
+        },
+        {
+          "x": 5,
+          "y": 83
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 5,
+          "y": 84
+        },
+        {
+          "x": 5,
+          "y": 93
+        },
+        {
+          "x": 0,
+          "y": 96
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 86,
+          "y": 111
+        },
+        {
+          "x": 86,
+          "y": 101
+        },
+        {
+          "x": 104,
+          "y": 105
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 87,
+          "y": 111
+        },
+        {
+          "x": 93,
+          "y": 112
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 11,
+          "y": 81
+        },
+        {
+          "x": 11,
+          "y": 95
+        },
+        {
+          "x": 11,
+          "y": 81
+        },
+        {
+          "x": 15,
+          "y": 82
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 15,
+          "y": 83
+        },
+        {
+          "x": 15,
+          "y": 99
+        },
+        {
+          "x": 12,
+          "y": 95
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 12,
+            "y": 95
+          }
+        },
+        {
+          "position": {
+            "x": 13,
+            "y": 96
+          }
+        },
+        {
+          "position": {
+            "x": 13,
+            "y": 97
+          }
+        },
+        {
+          "position": {
+            "x": 14,
+            "y": 98
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 15,
+          "y": 99
+        },
+        {
+          "x": 11,
+          "y": 96
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 17,
+          "y": 98
+        },
+        {
+          "x": 17,
+          "y": 83
+        },
+        {
+          "x": 22,
+          "y": 84
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 22,
+          "y": 85
+        },
+        {
+          "x": 22,
+          "y": 92
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 24,
+          "y": 90
+        },
+        {
+          "x": 24,
+          "y": 85
+        },
+        {
+          "x": 30,
+          "y": 87
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 50,
+          "y": 98
+        },
+        {
+          "x": 50,
+          "y": 92
+        },
+        {
+          "x": 56,
+          "y": 93
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 56,
+          "y": 94
+        },
+        {
+          "x": 56,
+          "y": 96
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 86,
+          "y": 122
+        },
+        {
+          "x": 86,
+          "y": 115
+        },
+        {
+          "x": 89,
+          "y": 116
+        },
+        {
+          "x": 89,
+          "y": 117
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 89,
+            "y": 118
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 37,
+          "y": 107
+        },
+        {
+          "x": 22,
+          "y": 113
+        },
+        {
+          "x": 26,
+          "y": 117
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 15
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 37,
+          "y": 108
+        },
+        {
+          "x": 40,
+          "y": 111
+        },
+        {
+          "x": 26,
+          "y": 117
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 40,
+          "y": 111
+        },
+        {
+          "x": 26,
+          "y": 117
+        },
+        {
+          "x": 23,
+          "y": 114
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 39,
+          "y": 110
+        },
+        {
+          "x": 37,
+          "y": 108
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 22,
+          "y": 113
+        },
+        {
+          "x": 37,
+          "y": 107
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 15
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 37,
+          "y": 107
+        },
+        {
+          "x": 25,
+          "y": 112
+        },
+        {
+          "x": 31,
+          "y": 115
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 32,
+          "y": 115
+        },
+        {
+          "x": 42,
+          "y": 111
+        },
+        {
+          "x": 38,
+          "y": 108
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 40,
+            "y": 46
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 56,
+            "y": 53
+          }
+        },
+        {
+          "position": {
+            "x": 50,
+            "y": 51
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 127,
+          "y": 63
+        },
+        {
+          "x": 131,
+          "y": 65
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 119,
+          "y": 57
+        },
+        {
+          "x": 121,
+          "y": 57
+        },
+        {
+          "x": 122,
+          "y": 58
+        },
+        {
+          "x": 123,
+          "y": 59
+        },
+        {
+          "x": 124,
+          "y": 57
+        },
+        {
+          "x": 124,
+          "y": 51
+        },
+        {
+          "x": 123,
+          "y": 53
+        },
+        {
+          "x": 123,
+          "y": 58
+        },
+        {
+          "x": 122,
+          "y": 57
+        },
+        {
+          "x": 122,
+          "y": 55
+        },
+        {
+          "x": 121,
+          "y": 55
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 117,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 117,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 117,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 117,
+            "y": 46
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 51
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 52
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 54
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 53
+          }
+        },
+        {
+          "position": {
+            "x": 115,
+            "y": 56
+          }
+        },
+        {
+          "position": {
+            "x": 115,
+            "y": 55
+          }
+        },
+        {
+          "position": {
+            "x": 115,
+            "y": 57
+          }
+        },
+        {
+          "position": {
+            "x": 115,
+            "y": 54
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 58
+          }
+        },
+        {
+          "position": {
+            "x": 117,
+            "y": 58
+          }
+        },
+        {
+          "position": {
+            "x": 118,
+            "y": 59
+          }
+        },
+        {
+          "position": {
+            "x": 119,
+            "y": 59
+          }
+        },
+        {
+          "position": {
+            "x": 120,
+            "y": 59
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 59
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 59
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 58
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 58
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 57
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 56
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 56
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 55
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 54
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 53
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 52
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 51
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 126,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 125,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 124,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 123,
+            "y": 50
+          }
+        },
+        {
+          "position": {
+            "x": 122,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 122,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 121,
+            "y": 49
+          }
+        },
+        {
+          "position": {
+            "x": 120,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 119,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 118,
+            "y": 47
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 122,
+            "y": 48
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 47
+          }
+        },
+        {
+          "position": {
+            "x": 117,
+            "y": 47
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 124,
+            "y": 61
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 123,
+            "y": 59
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 56
+          }
+        },
+        {
+          "position": {
+            "x": 116,
+            "y": 55
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 120,
+          "y": 53
+        },
+        {
+          "x": 118,
+          "y": 52
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 123,
+          "y": 55
+        },
+        {
+          "x": 121,
+          "y": 54
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 120,
+            "y": 53
+          }
+        },
+        {
+          "position": {
+            "x": 124,
+            "y": 55
+          }
+        },
+        {
+          "position": {
+            "x": 123,
+            "y": 55
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 118,
+            "y": 48
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 15
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 15
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 22,
+          "y": 113
+        },
+        {
+          "x": 1,
+          "y": 122
+        },
+        {
+          "x": 5,
+          "y": 124
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 6,
+          "y": 124
+        },
+        {
+          "x": 27,
+          "y": 116
+        },
+        {
+          "x": 23,
+          "y": 114
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 22,
+            "y": 114
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 22,
+            "y": 113
+          }
+        },
+        {
+          "position": {
+            "x": 21,
+            "y": 112
+          }
+        },
+        {
+          "position": {
+            "x": 21,
+            "y": 113
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 15
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 21,
+            "y": 115
+          }
+        },
+        {
+          "position": {
+            "x": 21,
+            "y": 113
+          }
+        },
+        {
+          "position": {
+            "x": 21,
+            "y": 114
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 21,
+            "y": 115
+          }
+        },
+        {
+          "position": {
+            "x": 21,
+            "y": 113
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 11
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 11
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 3
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 15
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 10,
+            "y": 5
+          }
+        },
+        {
+          "position": {
+            "x": 25,
+            "y": 26
+          }
+        },
+        {
+          "position": {
+            "x": 15,
+            "y": 25
+          }
+        },
+        {
+          "position": {
+            "x": 43,
+            "y": 7
+          }
+        },
+        {
+          "position": {
+            "x": 50,
+            "y": 25
+          }
+        },
+        {
+          "position": {
+            "x": 77,
+            "y": 26
+          }
+        },
+        {
+          "position": {
+            "x": 70,
+            "y": 11
+          }
+        },
+        {
+          "position": {
+            "x": 97,
+            "y": 2
+          }
+        },
+        {
+          "position": {
+            "x": 98,
+            "y": 20
+          }
+        },
+        {
+          "position": {
+            "x": 114,
+            "y": 24
+          }
+        },
+        {
+          "position": {
+            "x": 139,
+            "y": 15
+          }
+        },
+        {
+          "position": {
+            "x": 128,
+            "y": 8
+          }
+        },
+        {
+          "position": {
+            "x": 156,
+            "y": 28
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 7,
+            "y": 22
+          }
+        },
+        {
+          "position": {
+            "x": 22,
+            "y": 8
+          }
+        },
+        {
+          "position": {
+            "x": 41,
+            "y": 23
+          }
+        },
+        {
+          "position": {
+            "x": 32,
+            "y": 37
+          }
+        },
+        {
+          "position": {
+            "x": 67,
+            "y": 31
+          }
+        },
+        {
+          "position": {
+            "x": 60,
+            "y": 10
+          }
+        },
+        {
+          "position": {
+            "x": 81,
+            "y": 9
+          }
+        },
+        {
+          "position": {
+            "x": 96,
+            "y": 29
+          }
+        },
+        {
+          "position": {
+            "x": 107,
+            "y": 13
+          }
+        },
+        {
+          "position": {
+            "x": 147,
+            "y": 6
+          }
+        },
+        {
+          "position": {
+            "x": 135,
+            "y": 26
+          }
+        },
+        {
+          "position": {
+            "x": 146,
+            "y": 32
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 34,
+            "y": 7
+          }
+        },
+        {
+          "position": {
+            "x": 13,
+            "y": 13
+          }
+        },
+        {
+          "position": {
+            "x": 5,
+            "y": 35
+          }
+        },
+        {
+          "position": {
+            "x": 32,
+            "y": 24
+          }
+        },
+        {
+          "position": {
+            "x": 49,
+            "y": 7
+          }
+        },
+        {
+          "position": {
+            "x": 58,
+            "y": 37
+          }
+        },
+        {
+          "position": {
+            "x": 65,
+            "y": 16
+          }
+        },
+        {
+          "position": {
+            "x": 87,
+            "y": 1
+          }
+        },
+        {
+          "position": {
+            "x": 118,
+            "y": 9
+          }
+        },
+        {
+          "position": {
+            "x": 87,
+            "y": 20
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 29
+          }
+        },
+        {
+          "position": {
+            "x": 152,
+            "y": 18
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 12
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 52,
+            "y": 14
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 3
+          }
+        },
+        {
+          "position": {
+            "x": 89,
+            "y": 29
+          }
+        },
+        {
+          "position": {
+            "x": 18,
+            "y": 35
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 1
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 28,
+            "y": 11
+          }
+        },
+        {
+          "position": {
+            "x": 2,
+            "y": 6
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 15
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 18,
+            "y": 35
+          }
+        },
+        {
+          "position": {
+            "x": 2,
+            "y": 6
+          }
+        },
+        {
+          "position": {
+            "x": 28,
+            "y": 11
+          }
+        },
+        {
+          "position": {
+            "x": 52,
+            "y": 14
+          }
+        },
+        {
+          "position": {
+            "x": 89,
+            "y": 29
+          }
+        },
+        {
+          "position": {
+            "x": 127,
+            "y": 3
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 48,
+            "y": 36
+          }
+        },
+        {
+          "position": {
+            "x": 61,
+            "y": 27
+          }
+        },
+        {
+          "position": {
+            "x": 112,
+            "y": 32
+          }
+        },
+        {
+          "position": {
+            "x": 100,
+            "y": 12
+          }
+        },
+        {
+          "position": {
+            "x": 70,
+            "y": 0
+          }
+        },
+        {
+          "position": {
+            "x": 123,
+            "y": 16
+          }
+        },
+        {
+          "position": {
+            "x": 146,
+            "y": 20
+          }
+        },
+        {
+          "position": {
+            "x": 106,
+            "y": 27
+          }
+        },
+        {
+          "position": {
+            "x": 0,
+            "y": 23
+          }
+        },
+        {
+          "position": {
+            "x": 75,
+            "y": 18
+          }
+        },
+        {
+          "position": {
+            "x": 106,
+            "y": 3
+          }
+        },
+        {
+          "position": {
+            "x": 156,
+            "y": 8
+          }
+        },
+        {
+          "position": {
+            "x": 136,
+            "y": 4
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 18,
+            "y": 3
+          }
+        },
+        {
+          "position": {
+            "x": 41,
+            "y": 15
+          }
+        },
+        {
+          "position": {
+            "x": 41,
+            "y": 35
+          }
+        },
+        {
+          "position": {
+            "x": 20,
+            "y": 19
+          }
+        },
+        {
+          "position": {
+            "x": 78,
+            "y": 32
+          }
+        },
+        {
+          "position": {
+            "x": 79,
+            "y": 2
+          }
+        },
+        {
+          "position": {
+            "x": 112,
+            "y": 4
+          }
+        },
+        {
+          "position": {
+            "x": 92,
+            "y": 10
+          }
+        },
+        {
+          "position": {
+            "x": 58,
+            "y": 2
+          }
+        },
+        {
+          "position": {
+            "x": 132,
+            "y": 16
+          }
+        },
+        {
+          "position": {
+            "x": 120,
+            "y": 30
+          }
+        },
+        {
+          "position": {
+            "x": 114,
+            "y": 14
+          }
+        }
+      ]
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 27,
+          "y": 128
+        },
+        {
+          "x": 38,
+          "y": 124
+        },
+        {
+          "x": 38,
+          "y": 137
+        },
+        {
+          "x": 28,
+          "y": 141
+        },
+        {
+          "x": 28,
+          "y": 129
+        }
+      ]
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 66,
+          "y": 102
+        },
+        {
+          "x": 62,
+          "y": 97
+        }
+      ]
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 53,
+            "y": 143
+          }
+        },
+        {
+          "position": {
+            "x": 54,
+            "y": 144
+          }
+        },
+        {
+          "position": {
+            "x": 55,
+            "y": 145
+          }
+        },
+        {
+          "position": {
+            "x": 56,
+            "y": 146
+          }
+        },
+        {
+          "position": {
+            "x": 50,
+            "y": 139
+          }
+        },
+        {
+          "position": {
+            "x": 50,
+            "y": 141
+          }
+        },
+        {
+          "position": {
+            "x": 50,
+            "y": 144
+          }
+        },
+        {
+          "position": {
+            "x": 51,
+            "y": 145
+          }
+        },
+        {
+          "position": {
+            "x": 52,
+            "y": 145
+          }
+        },
+        {
+          "position": {
+            "x": 53,
+            "y": 146
+          }
+        },
+        {
+          "position": {
+            "x": 54,
+            "y": 147
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 54,
+            "y": 147
+          }
+        },
+        {
+          "position": {
+            "x": 56,
+            "y": 146
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 4
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 54,
+            "y": 146
+          }
+        },
+        {
+          "position": {
+            "x": 55,
+            "y": 147
+          }
+        },
+        {
+          "position": {
+            "x": 56,
+            "y": 147
+          }
+        },
+        {
+          "position": {
+            "x": 57,
+            "y": 149
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 4
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 58,
+            "y": 150
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 58,
+            "y": 150
+          }
+        },
+        {
+          "position": {
+            "x": 57,
+            "y": 149
+          }
+        },
+        {
+          "position": {
+            "x": 56,
+            "y": 147
+          }
+        },
+        {
+          "position": {
+            "x": 56,
+            "y": 147
+          }
+        },
+        {
+          "position": {
+            "x": 55,
+            "y": 147
+          }
+        },
+        {
+          "position": {
+            "x": 54,
+            "y": 146
+          }
+        },
+        {
+          "position": {
+            "x": 54,
+            "y": 146
+          }
+        },
+        {
+          "position": {
+            "x": 53,
+            "y": 146
+          }
+        },
+        {
+          "position": {
+            "x": 53,
+            "y": 145
+          }
+        },
+        {
+          "position": {
+            "x": 52,
+            "y": 145
+          }
+        },
+        {
+          "position": {
+            "x": 52,
+            "y": 145
+          }
+        },
+        {
+          "position": {
+            "x": 51,
+            "y": 146
+          }
+        },
+        {
+          "position": {
+            "x": 55,
+            "y": 145
+          }
+        },
+        {
+          "position": {
+            "x": 55,
+            "y": 144
+          }
+        },
+        {
+          "position": {
+            "x": 54,
+            "y": 144
+          }
+        },
+        {
+          "position": {
+            "x": 53,
+            "y": 143
+          }
+        },
+        {
+          "position": {
+            "x": 51,
+            "y": 146
+          }
+        },
+        {
+          "position": {
+            "x": 51,
+            "y": 145
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 4
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 50,
+          "y": 144
+        },
+        {
+          "x": 65,
+          "y": 153
+        },
+        {
+          "x": 64,
+          "y": 152
+        },
+        {
+          "x": 65,
+          "y": 151
+        },
+        {
+          "x": 50,
+          "y": 142
+        }
+      ]
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 118,
+          "y": 136
+        },
+        {
+          "x": 119,
+          "y": 138
+        }
+      ]
+    },
+    {
+      "type": "Fill",
+      "startPositions": [
+        {
+          "x": 129,
+          "y": 142
+        }
+      ]
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 70,
+          "y": 43
+        },
+        {
+          "x": 87,
+          "y": 61
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 50,
+          "y": 144
+        },
+        {
+          "x": 65,
+          "y": 153
+        },
+        {
+          "x": 65,
+          "y": 151
+        },
+        {
+          "x": 51,
+          "y": 143
+        },
+        {
+          "x": 60,
+          "y": 148
+        },
+        {
+          "x": 54,
+          "y": 144
+        },
+        {
+          "x": 52,
+          "y": 143
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 51,
+            "y": 142
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 8
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 50,
+            "y": 142
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 7
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 66,
+          "y": 102
+        },
+        {
+          "x": 62,
+          "y": 97
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 70,
+          "y": 43
+        },
+        {
+          "x": 84,
+          "y": 57
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "AbsoluteLine",
+      "points": [
+        {
+          "x": 79,
+          "y": 53
+        },
+        {
+          "x": 86,
+          "y": 60
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 0
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 87,
+            "y": 62
+          }
+        },
+        {
+          "position": {
+            "x": 87,
+            "y": 61
+          }
+        }
+      ]
+    },
+    {
+      "type": "SetPictureColor",
+      "colorNumber": 6
+    },
+    {
+      "type": "DisablePriorityDraw"
+    },
+    {
+      "type": "ChangePen",
+      "settings": {
+        "splatter": false,
+        "shape": "circle",
+        "size": 0
+      }
+    },
+    {
+      "type": "PlotWithPen",
+      "points": [
+        {
+          "position": {
+            "x": 87,
+            "y": 62
+          }
+        },
+        {
+          "position": {
+            "x": 87,
+            "y": 66
+          }
+        }
+      ]
+    }
+  ]
+}
